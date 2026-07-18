@@ -1,0 +1,1256 @@
+plan_key,contract_type,internet_service,phone_service,multiple_lines,online_security,online_backup,device_protection,tech_support,streaming_tv,streaming_movies,paperless_billing,contract_based_risk_tier
+1,Month-to-month,DSL,1,No,Yes,Yes,No,No,No,No,1,High
+2,Month-to-month,Fiber optic,1,No,No,No,No,No,No,No,1,High
+3,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,Yes,Yes,1,High
+4,Month-to-month,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,Yes,1,High
+5,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,Yes,1,High
+6,Month-to-month,DSL,1,No,No,No,Yes,Yes,No,No,0,High
+7,Month-to-month,DSL,0,No phone service,No,No,Yes,No,No,Yes,1,High
+8,Month-to-month,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,High
+9,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,Yes,Yes,1,High
+10,Month-to-month,DSL,0,No phone service,No,Yes,No,No,No,No,0,High
+11,Month-to-month,DSL,1,No,No,No,No,No,Yes,Yes,1,High
+12,Month-to-month,Fiber optic,1,No,No,No,No,No,Yes,No,1,High
+13,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,Yes,Yes,1,High
+14,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,No,No,1,High
+15,Month-to-month,Fiber optic,1,Yes,No,No,No,No,Yes,Yes,1,High
+16,Month-to-month,Fiber optic,1,Yes,No,No,No,No,Yes,Yes,0,High
+17,Month-to-month,Fiber optic,1,No,No,No,Yes,No,No,No,1,High
+18,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,No,No,1,High
+19,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,Yes,Yes,1,High
+20,Two year,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,Yes,1,Low
+21,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,No,1,High
+22,Month-to-month,Fiber optic,1,Yes,No,No,No,No,No,No,1,High
+23,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,Yes,Yes,1,High
+24,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,No,No,1,High
+25,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,No,Yes,Yes,1,High
+26,Month-to-month,DSL,0,No phone service,No,No,No,No,No,Yes,1,High
+27,Month-to-month,DSL,1,No,No,No,No,No,No,No,0,High
+28,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,No,Yes,0,High
+29,Month-to-month,DSL,1,No,No,No,No,No,No,No,1,High
+30,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,No,No,0,High
+31,Month-to-month,DSL,0,No phone service,No,Yes,Yes,No,No,Yes,1,High
+32,One year,Fiber optic,1,No,No,No,Yes,No,Yes,Yes,1,Medium
+33,Month-to-month,Fiber optic,1,No,Yes,No,No,No,No,No,0,High
+34,Month-to-month,Fiber optic,1,Yes,No,No,No,No,No,Yes,0,High
+35,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,No,No,1,High
+36,Month-to-month,DSL,0,No phone service,No,No,No,No,No,No,1,High
+37,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,No,Yes,1,High
+38,Month-to-month,Fiber optic,1,No,No,No,No,No,No,Yes,0,High
+39,Month-to-month,Fiber optic,1,No,Yes,No,Yes,Yes,Yes,Yes,1,High
+40,Month-to-month,DSL,1,No,No,No,No,Yes,No,No,0,High
+41,Month-to-month,DSL,1,No,No,No,No,No,Yes,No,0,High
+42,Month-to-month,Fiber optic,1,No,Yes,No,No,No,No,Yes,1,High
+43,Month-to-month,DSL,1,Yes,No,Yes,No,No,No,No,1,High
+44,Month-to-month,Fiber optic,1,No,No,Yes,No,No,Yes,Yes,1,High
+45,Month-to-month,Fiber optic,1,No,No,Yes,No,No,No,No,1,High
+46,Month-to-month,DSL,1,No,Yes,No,No,No,No,No,1,High
+47,Month-to-month,Fiber optic,1,No,No,No,No,No,No,No,0,High
+48,Month-to-month,DSL,0,No phone service,No,Yes,No,No,Yes,No,0,High
+49,Two year,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,Low
+50,Month-to-month,Fiber optic,1,No,No,No,No,Yes,Yes,Yes,1,High
+51,Month-to-month,DSL,0,No phone service,No,No,No,No,No,No,0,High
+52,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,No,No,1,High
+53,Month-to-month,Fiber optic,1,No,No,No,Yes,No,Yes,Yes,0,High
+54,Month-to-month,Fiber optic,1,No,Yes,No,No,No,No,No,1,High
+55,One year,DSL,1,No,Yes,Yes,No,Yes,Yes,Yes,0,Medium
+56,Month-to-month,Fiber optic,1,No,No,No,Yes,No,Yes,Yes,1,High
+57,One year,DSL,1,Yes,Yes,Yes,No,Yes,Yes,Yes,0,Medium
+58,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,No,No,0,High
+59,One year,DSL,1,Yes,No,Yes,Yes,Yes,No,Yes,1,Medium
+60,Two year,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,Yes,1,Low
+61,Month-to-month,Fiber optic,1,No,No,No,No,No,Yes,Yes,1,High
+62,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,No,No,1,High
+63,Month-to-month,DSL,0,No phone service,Yes,No,No,No,Yes,No,1,High
+64,Month-to-month,Fiber optic,1,No,No,No,No,No,No,Yes,1,High
+65,Month-to-month,DSL,0,No phone service,Yes,No,No,No,No,No,0,High
+66,Month-to-month,Fiber optic,1,Yes,No,No,No,No,Yes,No,1,High
+67,Month-to-month,DSL,1,No,No,Yes,No,No,No,No,0,High
+68,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,No,Yes,1,High
+69,Month-to-month,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,High
+70,Month-to-month,Fiber optic,1,No,No,Yes,No,No,No,Yes,0,High
+71,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,Yes,Yes,0,High
+72,Month-to-month,DSL,1,No,No,No,No,No,No,Yes,0,High
+73,Month-to-month,DSL,1,No,No,No,No,No,No,Yes,1,High
+74,Month-to-month,DSL,0,No phone service,Yes,No,Yes,No,No,Yes,1,High
+75,Month-to-month,Fiber optic,1,No,No,Yes,No,No,Yes,No,1,High
+76,One year,DSL,0,No phone service,No,Yes,Yes,No,No,Yes,1,Medium
+77,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,Yes,1,High
+78,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,No,Yes,1,High
+79,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,No,No,1,High
+80,Month-to-month,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,Yes,0,High
+81,Month-to-month,Fiber optic,1,Yes,No,No,No,No,No,No,0,High
+82,Month-to-month,Fiber optic,1,Yes,No,No,No,No,No,Yes,1,High
+83,Month-to-month,DSL,0,No phone service,Yes,No,No,Yes,Yes,No,1,High
+84,One year,Fiber optic,1,Yes,No,Yes,No,No,Yes,Yes,0,Medium
+85,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,Yes,No,1,High
+86,Month-to-month,DSL,1,Yes,Yes,No,Yes,Yes,No,No,1,High
+87,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,Yes,0,High
+88,Month-to-month,DSL,0,No phone service,No,Yes,No,No,No,No,1,High
+89,Month-to-month,DSL,1,No,Yes,Yes,Yes,Yes,No,No,0,High
+90,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,No,Yes,0,High
+91,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,Yes,1,High
+92,One year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,Yes,1,Medium
+93,One year,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,Medium
+94,Month-to-month,DSL,0,No phone service,No,Yes,No,No,Yes,Yes,1,High
+95,Month-to-month,DSL,1,No,No,No,Yes,No,No,No,1,High
+96,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,No,No,1,High
+97,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,No,0,High
+98,Month-to-month,Fiber optic,1,Yes,No,No,Yes,Yes,No,No,1,High
+99,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,Yes,Yes,0,High
+100,Month-to-month,Fiber optic,1,No,No,Yes,No,No,No,Yes,1,High
+101,Month-to-month,Fiber optic,1,No,No,No,No,No,Yes,Yes,0,High
+102,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,No,Yes,1,High
+103,Month-to-month,DSL,1,No,No,No,No,Yes,No,No,1,High
+104,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,Yes,1,Medium
+105,One year,Fiber optic,1,Yes,No,No,Yes,No,Yes,Yes,1,Medium
+106,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,Yes,Yes,1,High
+107,One year,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,Yes,1,Medium
+108,Two year,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,Yes,1,Low
+109,Month-to-month,Fiber optic,1,No,No,No,Yes,No,No,Yes,1,High
+110,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,Yes,No,1,High
+111,One year,Fiber optic,1,No,No,Yes,Yes,No,Yes,No,0,Medium
+112,One year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,Yes,0,Medium
+113,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,No,No,1,High
+114,One year,Fiber optic,1,Yes,No,No,No,No,No,Yes,0,Medium
+115,Month-to-month,Fiber optic,1,No,Yes,No,Yes,Yes,Yes,Yes,0,High
+116,Month-to-month,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,Yes,1,High
+117,Month-to-month,Fiber optic,1,No,No,No,Yes,No,No,Yes,0,High
+118,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,No,1,High
+119,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,Yes,Yes,1,High
+120,Month-to-month,Fiber optic,1,No,Yes,No,No,No,Yes,Yes,0,High
+121,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,Yes,Yes,0,High
+122,Two year,Fiber optic,1,Yes,Yes,No,Yes,Yes,Yes,Yes,1,Low
+123,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,No,No,0,High
+124,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,No,Yes,1,High
+125,Month-to-month,DSL,1,No,No,No,Yes,No,No,Yes,0,High
+126,One year,DSL,1,No,No,No,No,No,No,Yes,0,Medium
+127,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,Yes,No,1,High
+128,Month-to-month,DSL,0,No phone service,No,No,Yes,Yes,No,Yes,1,High
+129,Month-to-month,DSL,0,No phone service,No,No,Yes,No,No,Yes,0,High
+130,Month-to-month,Fiber optic,1,No,Yes,No,No,No,Yes,No,1,High
+131,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,Yes,No,1,High
+132,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,Yes,No,1,High
+133,Month-to-month,DSL,1,No,No,Yes,No,No,No,No,1,High
+134,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1,High
+135,One year,Fiber optic,1,No,No,No,No,No,Yes,Yes,1,Medium
+136,Month-to-month,DSL,1,No,No,Yes,Yes,No,No,No,1,High
+137,Month-to-month,Fiber optic,1,No,Yes,No,Yes,Yes,No,Yes,1,High
+138,One year,DSL,0,No phone service,No,No,No,No,Yes,Yes,1,Medium
+139,Month-to-month,Fiber optic,1,No,No,No,Yes,No,No,No,0,High
+140,Month-to-month,DSL,1,Yes,Yes,No,No,No,Yes,No,1,High
+141,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,Yes,No,1,High
+142,One year,Fiber optic,1,No,No,Yes,No,No,Yes,Yes,1,Medium
+143,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,Yes,Yes,1,High
+144,Month-to-month,DSL,1,No,No,No,Yes,No,Yes,No,1,High
+145,Month-to-month,DSL,1,Yes,No,No,No,No,No,Yes,1,High
+146,Month-to-month,DSL,1,Yes,No,No,No,Yes,No,Yes,1,High
+147,Month-to-month,DSL,0,No phone service,No,No,No,Yes,Yes,Yes,1,High
+148,Month-to-month,Fiber optic,1,No,No,No,No,No,Yes,No,0,High
+149,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,Yes,No,0,High
+150,Month-to-month,Fiber optic,1,No,No,Yes,No,No,No,No,0,High
+151,Month-to-month,DSL,0,No phone service,No,No,No,Yes,No,No,1,High
+152,One year,Fiber optic,1,No,No,Yes,No,No,Yes,Yes,0,Medium
+153,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0,Medium
+154,One year,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,No,1,Medium
+155,Month-to-month,DSL,1,No,No,No,No,No,Yes,No,1,High
+156,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,No,Yes,1,High
+157,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,No,No,0,High
+158,Month-to-month,DSL,0,No phone service,No,Yes,No,No,No,Yes,1,High
+159,One year,DSL,1,No,No,No,Yes,No,Yes,Yes,1,Medium
+160,Month-to-month,DSL,1,Yes,No,No,No,No,No,No,1,High
+161,One year,DSL,1,Yes,No,No,Yes,No,Yes,Yes,1,Medium
+162,Month-to-month,Fiber optic,1,No,No,No,Yes,No,Yes,No,1,High
+163,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,No,No,0,High
+164,Month-to-month,Fiber optic,1,Yes,No,No,No,Yes,Yes,Yes,0,High
+165,One year,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,Yes,1,Medium
+166,Month-to-month,DSL,1,No,No,Yes,No,Yes,No,No,1,High
+167,One year,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,Medium
+168,Month-to-month,DSL,0,No phone service,Yes,Yes,No,No,No,Yes,1,High
+169,Month-to-month,DSL,1,No,Yes,Yes,Yes,No,No,Yes,1,High
+170,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,No,Yes,0,High
+171,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,Yes,Yes,0,High
+172,One year,Fiber optic,1,No,Yes,Yes,Yes,No,Yes,Yes,1,Medium
+173,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,Yes,No,0,High
+174,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,Yes,Yes,0,High
+175,One year,Fiber optic,1,No,No,No,Yes,Yes,Yes,Yes,0,Medium
+176,Month-to-month,DSL,1,No,No,No,No,Yes,Yes,No,1,High
+177,Month-to-month,DSL,1,Yes,Yes,No,No,No,No,Yes,1,High
+178,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,No,Yes,1,High
+179,One year,Fiber optic,1,Yes,No,Yes,Yes,No,No,No,0,Medium
+180,One year,Fiber optic,1,Yes,No,Yes,No,No,Yes,Yes,1,Medium
+181,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,No,No,1,High
+182,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,Yes,1,High
+183,Month-to-month,DSL,1,Yes,No,Yes,No,Yes,No,No,1,High
+184,Month-to-month,DSL,0,No phone service,No,No,No,No,Yes,No,1,High
+185,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,Yes,1,High
+186,Month-to-month,DSL,1,No,No,No,Yes,Yes,Yes,Yes,1,High
+187,Month-to-month,DSL,1,Yes,No,No,No,No,Yes,No,1,High
+188,Month-to-month,DSL,0,No phone service,No,No,No,No,Yes,Yes,1,High
+189,Month-to-month,Fiber optic,1,No,No,Yes,Yes,Yes,No,No,1,High
+190,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,No,Yes,0,High
+191,Two year,Fiber optic,1,Yes,Yes,No,Yes,Yes,Yes,Yes,0,Low
+192,Month-to-month,Fiber optic,1,No,No,Yes,No,No,Yes,No,0,High
+193,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,No,1,High
+194,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,No,Yes,1,High
+195,Month-to-month,DSL,1,No,No,No,Yes,No,No,No,0,High
+196,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,Yes,1,Medium
+197,Month-to-month,DSL,0,No phone service,No,No,No,No,Yes,Yes,0,High
+198,Two year,Fiber optic,1,No,No,No,Yes,No,Yes,Yes,1,Low
+199,Month-to-month,DSL,1,Yes,No,No,No,No,No,No,0,High
+200,One year,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,Yes,0,Medium
+201,One year,Fiber optic,1,No,Yes,Yes,No,No,No,Yes,1,Medium
+202,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,Yes,Yes,1,High
+203,Month-to-month,Fiber optic,1,No,Yes,No,No,No,Yes,Yes,1,High
+204,Month-to-month,DSL,1,Yes,Yes,Yes,No,No,No,No,1,High
+205,Month-to-month,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,Yes,1,High
+206,Month-to-month,DSL,0,No phone service,Yes,Yes,No,No,No,No,1,High
+207,One year,Fiber optic,1,Yes,Yes,No,Yes,Yes,No,Yes,1,Medium
+208,Month-to-month,DSL,1,Yes,No,No,Yes,No,No,No,0,High
+209,One year,DSL,0,No phone service,Yes,Yes,Yes,No,No,No,1,Medium
+210,One year,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,No,1,Medium
+211,Month-to-month,Fiber optic,1,No,No,No,No,Yes,Yes,No,0,High
+212,Month-to-month,DSL,1,Yes,Yes,No,No,No,No,No,0,High
+213,One year,DSL,1,Yes,Yes,Yes,No,Yes,No,No,1,Medium
+214,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,No,No,0,High
+215,Month-to-month,Fiber optic,1,No,Yes,Yes,Yes,Yes,No,Yes,1,High
+216,Month-to-month,DSL,1,Yes,No,No,Yes,No,No,Yes,1,High
+217,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,No,Yes,0,High
+218,Month-to-month,DSL,0,No phone service,No,No,Yes,No,Yes,Yes,1,High
+219,One year,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,Yes,0,Medium
+220,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,Yes,0,High
+221,One year,DSL,0,No phone service,No,Yes,No,Yes,No,No,0,Medium
+222,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,Yes,1,Low
+223,Month-to-month,DSL,0,No phone service,No,No,No,No,No,Yes,0,High
+224,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,Yes,1,High
+225,One year,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,Yes,0,Medium
+226,Month-to-month,DSL,1,No,No,No,Yes,Yes,No,No,1,High
+227,Month-to-month,DSL,0,No phone service,Yes,No,No,Yes,Yes,Yes,1,High
+228,One year,DSL,1,No,Yes,No,Yes,No,No,Yes,0,Medium
+229,One year,No,1,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,Medium
+230,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,No,Yes,1,High
+231,One year,DSL,1,Yes,No,No,Yes,Yes,Yes,Yes,1,Medium
+232,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,No,1,High
+233,Month-to-month,DSL,0,No phone service,Yes,No,No,Yes,No,No,1,High
+234,Month-to-month,DSL,0,No phone service,No,No,Yes,No,No,No,0,High
+235,One year,Fiber optic,1,Yes,Yes,No,No,Yes,No,Yes,1,Medium
+236,Month-to-month,Fiber optic,1,No,No,No,No,Yes,Yes,No,1,High
+237,One year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,Yes,1,Medium
+238,Month-to-month,DSL,1,Yes,Yes,No,No,No,No,No,1,High
+239,Month-to-month,DSL,0,No phone service,No,Yes,Yes,No,No,No,1,High
+240,Month-to-month,Fiber optic,1,Yes,No,Yes,No,No,Yes,No,0,High
+241,Month-to-month,DSL,0,No phone service,Yes,No,No,Yes,No,No,0,High
+242,One year,DSL,1,Yes,Yes,No,No,Yes,No,No,1,Medium
+243,One year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,No,0,Medium
+244,Two year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,Yes,1,Low
+245,One year,DSL,0,No phone service,No,No,No,No,No,No,0,Medium
+246,One year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,Yes,1,Medium
+247,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,Yes,No,1,High
+248,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,Yes,No,Yes,0,High
+249,Month-to-month,DSL,1,Yes,Yes,Yes,No,No,No,No,0,High
+250,One year,DSL,1,No,Yes,No,Yes,Yes,No,No,1,Medium
+251,Month-to-month,DSL,0,No phone service,No,Yes,Yes,No,Yes,Yes,1,High
+252,Month-to-month,DSL,1,No,No,Yes,No,Yes,No,No,0,High
+253,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,No,1,High
+254,One year,DSL,1,Yes,No,No,No,No,No,No,1,Medium
+255,Month-to-month,Fiber optic,1,Yes,No,No,No,No,Yes,No,0,High
+256,Month-to-month,DSL,0,No phone service,No,No,Yes,No,No,No,1,High
+257,Month-to-month,Fiber optic,1,No,No,No,No,Yes,No,Yes,1,High
+258,One year,DSL,1,Yes,No,No,Yes,No,No,No,1,Medium
+259,Month-to-month,DSL,1,No,Yes,Yes,No,No,No,No,0,High
+260,Month-to-month,DSL,1,No,No,Yes,No,No,Yes,Yes,1,High
+261,Month-to-month,DSL,1,No,Yes,No,No,Yes,No,No,0,High
+262,Month-to-month,DSL,1,No,No,No,No,Yes,Yes,No,0,High
+263,Month-to-month,DSL,0,No phone service,No,No,No,Yes,No,No,0,High
+264,Month-to-month,Fiber optic,1,No,No,Yes,Yes,Yes,No,Yes,1,High
+265,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,Yes,Yes,1,High
+266,Month-to-month,Fiber optic,1,No,Yes,No,No,No,Yes,No,0,High
+267,Month-to-month,DSL,0,No phone service,No,Yes,Yes,No,Yes,Yes,0,High
+268,One year,DSL,1,No,No,Yes,No,No,Yes,Yes,1,Medium
+269,Month-to-month,DSL,1,Yes,No,No,No,Yes,Yes,Yes,1,High
+270,Month-to-month,Fiber optic,1,No,No,Yes,Yes,Yes,No,No,0,High
+271,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,Yes,1,High
+272,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,No,No,1,High
+273,Month-to-month,Fiber optic,1,Yes,No,No,Yes,No,Yes,No,0,High
+274,One year,Fiber optic,1,Yes,No,No,No,Yes,Yes,Yes,1,Medium
+275,Month-to-month,DSL,1,No,Yes,No,No,No,Yes,Yes,1,High
+276,One year,DSL,1,No,No,Yes,Yes,Yes,Yes,No,1,Medium
+277,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,No,Yes,1,High
+278,One year,Fiber optic,1,Yes,No,No,No,No,Yes,No,1,Medium
+279,Month-to-month,DSL,1,No,Yes,No,No,No,No,No,0,High
+280,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,No,1,High
+281,Month-to-month,DSL,1,No,No,No,No,Yes,No,Yes,0,High
+282,One year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,Yes,1,Medium
+283,Month-to-month,DSL,1,No,No,No,Yes,No,No,Yes,1,High
+284,One year,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,Yes,1,Medium
+285,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,No,0,High
+286,One year,DSL,1,No,No,Yes,No,Yes,No,Yes,1,Medium
+287,Month-to-month,DSL,0,No phone service,Yes,No,Yes,Yes,No,No,0,High
+288,Month-to-month,Fiber optic,1,No,Yes,Yes,No,Yes,No,No,1,High
+289,One year,DSL,1,Yes,No,No,No,No,Yes,Yes,1,Medium
+290,Month-to-month,DSL,0,No phone service,No,No,No,Yes,Yes,No,0,High
+291,One year,Fiber optic,1,No,No,Yes,No,Yes,Yes,Yes,0,Medium
+292,Month-to-month,DSL,1,No,Yes,No,Yes,No,No,No,1,High
+293,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,No,0,Low
+294,Two year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,Yes,0,Low
+295,Month-to-month,DSL,1,Yes,Yes,No,Yes,Yes,No,No,0,High
+296,Two year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,No,1,Low
+297,One year,Fiber optic,1,Yes,Yes,No,No,No,No,Yes,1,Medium
+298,One year,DSL,1,No,Yes,No,No,No,Yes,Yes,1,Medium
+299,One year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,Yes,1,Medium
+300,One year,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,Yes,1,Medium
+301,One year,DSL,0,No phone service,Yes,No,Yes,No,Yes,Yes,1,Medium
+302,Month-to-month,DSL,0,No phone service,No,No,No,No,Yes,No,0,High
+303,One year,Fiber optic,1,Yes,No,No,No,No,No,Yes,1,Medium
+304,Month-to-month,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,Yes,0,High
+305,Two year,No,1,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,Low
+306,Month-to-month,No,1,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,High
+307,Month-to-month,DSL,0,No phone service,No,No,Yes,No,Yes,No,1,High
+308,Month-to-month,DSL,1,No,No,No,No,No,Yes,Yes,0,High
+309,Month-to-month,DSL,1,No,Yes,Yes,No,No,Yes,No,1,High
+310,One year,DSL,1,No,Yes,No,Yes,Yes,Yes,No,1,Medium
+311,One year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,Yes,0,Medium
+312,Month-to-month,DSL,0,No phone service,No,Yes,No,No,Yes,No,1,High
+313,Two year,DSL,0,No phone service,No,Yes,No,No,Yes,Yes,0,Low
+314,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,No,1,High
+315,One year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,Yes,1,Medium
+316,Month-to-month,DSL,1,No,No,No,Yes,No,Yes,Yes,1,High
+317,Month-to-month,DSL,1,No,Yes,Yes,Yes,No,No,No,0,High
+318,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,No,No,1,High
+319,One year,Fiber optic,1,Yes,Yes,No,Yes,Yes,Yes,Yes,1,Medium
+320,Month-to-month,DSL,1,No,Yes,No,Yes,No,Yes,No,0,High
+321,One year,Fiber optic,1,Yes,Yes,Yes,No,Yes,No,Yes,0,Medium
+322,Two year,No,1,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,Low
+323,Month-to-month,DSL,1,Yes,Yes,No,Yes,Yes,Yes,No,0,High
+324,One year,Fiber optic,1,Yes,No,No,No,No,Yes,No,0,Medium
+325,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,No,0,High
+326,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,No,No,0,High
+327,Two year,DSL,1,No,Yes,Yes,No,Yes,No,No,0,Low
+328,Month-to-month,DSL,0,No phone service,Yes,Yes,No,Yes,Yes,No,1,High
+329,One year,DSL,1,No,Yes,Yes,Yes,No,No,No,0,Medium
+330,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,No,No,0,High
+331,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0,Low
+332,Two year,Fiber optic,1,No,No,No,Yes,Yes,No,No,1,Low
+333,Month-to-month,Fiber optic,1,No,No,No,No,Yes,No,Yes,0,High
+334,Two year,DSL,1,Yes,Yes,No,Yes,No,Yes,Yes,1,Low
+335,Month-to-month,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,Yes,1,High
+336,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1,Medium
+337,Two year,DSL,1,No,Yes,No,No,Yes,Yes,Yes,1,Low
+338,Month-to-month,DSL,0,No phone service,No,No,No,Yes,Yes,Yes,0,High
+339,Two year,DSL,1,Yes,No,Yes,Yes,No,Yes,Yes,1,Low
+340,Month-to-month,DSL,1,Yes,No,No,Yes,Yes,No,No,0,High
+341,One year,DSL,1,No,Yes,No,Yes,Yes,Yes,Yes,0,Medium
+342,Month-to-month,DSL,0,No phone service,Yes,No,No,No,No,Yes,0,High
+343,Month-to-month,No,1,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,High
+344,Month-to-month,DSL,1,Yes,No,Yes,No,Yes,No,No,0,High
+345,One year,DSL,0,No phone service,No,Yes,Yes,No,Yes,Yes,1,Medium
+346,Month-to-month,DSL,1,No,No,Yes,No,Yes,Yes,No,0,High
+347,One year,Fiber optic,1,No,No,No,No,No,No,No,1,Medium
+348,Month-to-month,DSL,1,No,Yes,No,No,Yes,No,No,1,High
+349,Month-to-month,Fiber optic,1,No,Yes,Yes,Yes,No,No,No,1,High
+350,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0,High
+351,Month-to-month,Fiber optic,1,No,Yes,Yes,Yes,No,Yes,Yes,1,High
+352,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,No,No,0,High
+353,One year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,Yes,0,Medium
+354,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,Yes,No,1,High
+355,Month-to-month,DSL,1,Yes,No,No,No,Yes,Yes,No,1,High
+356,Month-to-month,DSL,0,No phone service,No,Yes,No,Yes,No,No,1,High
+357,One year,Fiber optic,1,No,Yes,No,Yes,Yes,Yes,Yes,1,Medium
+358,Two year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,Yes,1,Low
+359,Month-to-month,DSL,0,No phone service,Yes,No,Yes,No,Yes,Yes,0,High
+360,Month-to-month,DSL,0,No phone service,No,Yes,Yes,Yes,No,No,1,High
+361,One year,Fiber optic,1,No,No,No,Yes,No,Yes,No,1,Medium
+362,One year,Fiber optic,1,No,No,Yes,No,Yes,Yes,Yes,1,Medium
+363,Month-to-month,Fiber optic,1,No,Yes,No,No,No,No,Yes,0,High
+364,One year,DSL,1,No,Yes,No,No,No,No,No,1,Medium
+365,Month-to-month,DSL,0,No phone service,Yes,No,No,No,No,No,1,High
+366,Month-to-month,DSL,1,No,No,No,No,Yes,Yes,Yes,1,High
+367,One year,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,Yes,1,Medium
+368,One year,DSL,0,No phone service,No,Yes,Yes,No,No,No,0,Medium
+369,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,No,Yes,1,Low
+370,Month-to-month,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,No,1,High
+371,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,Yes,No,0,High
+372,One year,Fiber optic,1,No,No,No,Yes,No,Yes,Yes,0,Medium
+373,Month-to-month,DSL,1,Yes,No,No,No,No,Yes,Yes,1,High
+374,Month-to-month,DSL,1,No,No,No,Yes,Yes,Yes,Yes,0,High
+375,Two year,DSL,1,Yes,Yes,No,Yes,Yes,No,No,0,Low
+376,One year,DSL,1,No,No,No,Yes,Yes,Yes,Yes,1,Medium
+377,Month-to-month,Fiber optic,1,No,No,No,No,Yes,No,No,1,High
+378,One year,DSL,0,No phone service,No,Yes,No,No,Yes,Yes,1,Medium
+379,One year,Fiber optic,1,Yes,No,Yes,No,No,No,Yes,0,Medium
+380,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,Yes,1,Low
+381,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,No,1,High
+382,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,No,0,Low
+383,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1,Low
+384,Two year,DSL,1,No,No,No,Yes,Yes,No,No,0,Low
+385,Month-to-month,DSL,0,No phone service,Yes,Yes,No,No,Yes,Yes,1,High
+386,Month-to-month,DSL,1,No,Yes,Yes,No,Yes,No,No,1,High
+387,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,Yes,1,High
+388,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,No,0,High
+389,One year,Fiber optic,1,Yes,Yes,Yes,No,No,No,Yes,1,Medium
+390,One year,Fiber optic,1,No,Yes,No,Yes,Yes,Yes,No,1,Medium
+391,One year,DSL,0,No phone service,No,No,Yes,No,Yes,No,1,Medium
+392,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,No,No,No,0,High
+393,One year,DSL,1,No,Yes,Yes,Yes,Yes,No,Yes,0,Medium
+394,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,Yes,1,High
+395,One year,DSL,1,Yes,No,No,No,Yes,Yes,Yes,0,Medium
+396,Month-to-month,DSL,1,Yes,No,No,No,Yes,No,No,0,High
+397,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,Yes,No,1,High
+398,One year,DSL,1,Yes,Yes,Yes,Yes,No,No,Yes,0,Medium
+399,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,No,No,0,High
+400,One year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,Yes,1,Medium
+401,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,No,1,High
+402,One year,DSL,1,Yes,Yes,Yes,No,Yes,Yes,No,0,Medium
+403,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,Yes,Yes,1,High
+404,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0,Low
+405,Two year,Fiber optic,1,Yes,No,No,No,No,Yes,Yes,1,Low
+406,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,Yes,No,0,High
+407,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,Yes,0,High
+408,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,No,0,Medium
+409,Month-to-month,DSL,0,No phone service,No,Yes,No,Yes,No,Yes,1,High
+410,Two year,DSL,0,No phone service,No,Yes,Yes,No,Yes,Yes,1,Low
+411,One year,DSL,1,Yes,No,Yes,No,Yes,Yes,Yes,1,Medium
+412,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,Yes,Yes,0,High
+413,Month-to-month,Fiber optic,1,No,No,Yes,No,No,Yes,Yes,0,High
+414,Month-to-month,DSL,1,Yes,No,No,Yes,Yes,Yes,No,0,High
+415,One year,Fiber optic,1,No,No,Yes,Yes,No,Yes,Yes,1,Medium
+416,Month-to-month,DSL,1,No,Yes,Yes,No,No,Yes,Yes,1,High
+417,Month-to-month,DSL,0,No phone service,No,No,Yes,Yes,Yes,Yes,1,High
+418,One year,DSL,1,No,No,Yes,No,Yes,No,No,1,Medium
+419,Month-to-month,DSL,1,Yes,No,No,No,No,No,Yes,0,High
+420,Month-to-month,DSL,1,Yes,Yes,Yes,No,Yes,No,No,0,High
+421,Two year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,No,1,Low
+422,Two year,DSL,1,No,Yes,Yes,No,Yes,Yes,No,1,Low
+423,One year,DSL,0,No phone service,Yes,Yes,Yes,No,Yes,Yes,0,Medium
+424,One year,DSL,1,No,No,No,Yes,Yes,No,Yes,1,Medium
+425,One year,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,Yes,0,Medium
+426,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,No,Yes,0,Low
+427,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,Yes,0,High
+428,Two year,Fiber optic,1,Yes,No,Yes,No,No,Yes,Yes,0,Low
+429,One year,DSL,1,No,No,No,No,Yes,Yes,No,1,Medium
+430,One year,DSL,1,No,Yes,No,Yes,No,No,No,0,Medium
+431,One year,DSL,0,No phone service,Yes,No,Yes,Yes,No,No,0,Medium
+432,One year,DSL,1,No,Yes,Yes,No,No,No,No,0,Medium
+433,One year,Fiber optic,1,Yes,No,No,Yes,No,Yes,Yes,0,Medium
+434,Two year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,Yes,0,Low
+435,Two year,DSL,1,Yes,No,Yes,No,Yes,No,No,1,Low
+436,Month-to-month,DSL,1,No,Yes,Yes,No,Yes,No,No,0,High
+437,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1,Low
+438,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,No,1,Low
+439,One year,DSL,1,No,Yes,Yes,Yes,Yes,No,No,0,Medium
+440,Two year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,No,0,Low
+441,One year,DSL,1,No,No,Yes,No,No,No,No,0,Medium
+442,Two year,DSL,1,Yes,Yes,Yes,No,No,Yes,No,1,Low
+443,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,No,1,Low
+444,Month-to-month,DSL,1,Yes,Yes,Yes,No,Yes,Yes,No,1,High
+445,Two year,DSL,1,Yes,Yes,No,No,Yes,Yes,Yes,1,Low
+446,Two year,DSL,1,Yes,Yes,No,Yes,Yes,No,No,1,Low
+447,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,Yes,No,1,High
+448,One year,DSL,1,No,Yes,Yes,Yes,Yes,No,Yes,1,Medium
+449,One year,Fiber optic,1,Yes,Yes,No,No,No,Yes,Yes,1,Medium
+450,Two year,DSL,0,No phone service,Yes,Yes,Yes,No,No,No,0,Low
+451,One year,DSL,1,No,No,No,Yes,Yes,No,No,1,Medium
+452,Month-to-month,DSL,1,No,No,Yes,No,Yes,Yes,Yes,1,High
+453,One year,Fiber optic,1,Yes,No,Yes,No,No,No,No,1,Medium
+454,Two year,DSL,1,No,No,Yes,Yes,Yes,Yes,Yes,0,Low
+455,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,No,No,1,High
+456,Month-to-month,DSL,1,No,Yes,No,No,Yes,No,Yes,1,High
+457,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,Yes,0,Medium
+458,One year,No,1,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,Medium
+459,Month-to-month,DSL,0,No phone service,Yes,No,No,No,Yes,Yes,0,High
+460,Two year,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,Low
+461,One year,DSL,1,No,Yes,No,No,No,Yes,No,1,Medium
+462,Month-to-month,Fiber optic,1,No,No,No,No,Yes,No,No,0,High
+463,Two year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,Yes,1,Low
+464,One year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,No,0,Medium
+465,One year,DSL,0,No phone service,No,Yes,Yes,No,Yes,No,0,Medium
+466,One year,DSL,0,No phone service,Yes,No,No,No,No,No,0,Medium
+467,One year,Fiber optic,1,Yes,No,No,No,No,Yes,Yes,0,Medium
+468,One year,DSL,1,No,Yes,No,Yes,Yes,No,No,0,Medium
+469,Two year,DSL,0,No phone service,No,Yes,No,Yes,Yes,Yes,1,Low
+470,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,Yes,No,0,High
+471,Two year,DSL,0,No phone service,Yes,No,No,No,No,No,0,Low
+472,Two year,Fiber optic,1,No,Yes,No,No,Yes,Yes,No,1,Low
+473,One year,DSL,0,No phone service,Yes,Yes,No,No,Yes,Yes,1,Medium
+474,Two year,DSL,1,No,No,No,No,Yes,No,No,0,Low
+475,Two year,Fiber optic,1,Yes,No,Yes,No,No,Yes,Yes,1,Low
+476,One year,Fiber optic,1,Yes,Yes,Yes,No,No,No,No,1,Medium
+477,Two year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,No,1,Low
+478,One year,DSL,1,No,No,Yes,Yes,No,Yes,No,0,Medium
+479,Month-to-month,DSL,1,No,No,Yes,Yes,Yes,No,Yes,1,High
+480,Two year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,Yes,0,Low
+481,Two year,DSL,1,No,Yes,No,Yes,No,Yes,No,0,Low
+482,Two year,DSL,1,Yes,No,Yes,Yes,Yes,No,Yes,1,Low
+483,One year,Fiber optic,1,No,Yes,No,Yes,Yes,No,No,1,Medium
+484,One year,DSL,1,No,Yes,No,Yes,No,Yes,Yes,0,Medium
+485,Month-to-month,DSL,1,Yes,No,Yes,No,No,No,No,0,High
+486,One year,DSL,1,Yes,Yes,No,No,Yes,No,Yes,1,Medium
+487,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,Yes,0,Low
+488,Month-to-month,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,No,1,High
+489,One year,Fiber optic,1,No,Yes,No,No,Yes,Yes,Yes,1,Medium
+490,One year,Fiber optic,1,No,No,Yes,No,Yes,No,No,1,Medium
+491,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,Yes,1,Low
+492,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,No,0,Low
+493,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,No,1,Low
+494,Two year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,Yes,1,Low
+495,One year,DSL,0,No phone service,Yes,No,No,No,Yes,Yes,1,Medium
+496,One year,DSL,1,No,Yes,No,Yes,Yes,Yes,Yes,1,Medium
+497,Two year,DSL,1,Yes,Yes,Yes,No,Yes,Yes,Yes,1,Low
+498,Month-to-month,Fiber optic,1,No,Yes,Yes,No,Yes,No,Yes,1,High
+499,Two year,DSL,0,No phone service,No,No,No,Yes,No,No,1,Low
+500,Two year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,Yes,0,Low
+501,Two year,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,Yes,0,Low
+502,One year,DSL,1,No,Yes,No,No,Yes,Yes,Yes,1,Medium
+503,Month-to-month,Fiber optic,1,No,Yes,Yes,Yes,No,No,Yes,0,High
+504,One year,DSL,1,Yes,No,No,Yes,No,No,Yes,0,Medium
+505,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,Yes,1,Medium
+506,One year,Fiber optic,1,No,Yes,Yes,Yes,No,Yes,No,1,Medium
+507,One year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,Yes,0,Medium
+508,Two year,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,Yes,1,Low
+509,Two year,DSL,0,No phone service,Yes,Yes,No,Yes,No,Yes,1,Low
+510,Two year,DSL,1,No,Yes,Yes,No,Yes,No,No,1,Low
+511,Month-to-month,DSL,1,No,Yes,Yes,No,No,No,Yes,1,High
+512,One year,Fiber optic,1,Yes,No,No,No,No,No,No,1,Medium
+513,One year,Fiber optic,1,No,No,Yes,Yes,Yes,No,No,0,Medium
+514,Two year,Fiber optic,1,No,No,No,Yes,No,No,No,0,Low
+515,Month-to-month,DSL,1,Yes,No,No,Yes,No,Yes,Yes,1,High
+516,One year,DSL,1,No,No,No,No,No,Yes,Yes,1,Medium
+517,Two year,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,Yes,0,Low
+518,Two year,DSL,1,No,No,No,Yes,Yes,Yes,Yes,0,Low
+519,One year,DSL,1,Yes,Yes,No,Yes,No,Yes,Yes,1,Medium
+520,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,No,Yes,1,High
+521,One year,DSL,1,No,Yes,No,No,No,No,No,0,Medium
+522,Two year,DSL,0,No phone service,Yes,Yes,No,Yes,Yes,Yes,1,Low
+523,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,Yes,1,High
+524,One year,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,No,1,Medium
+525,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,No,No,No,1,High
+526,One year,Fiber optic,1,No,Yes,Yes,Yes,No,No,Yes,0,Medium
+527,One year,DSL,1,No,No,No,No,No,No,No,0,Medium
+528,Two year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,Yes,1,Low
+529,One year,Fiber optic,1,Yes,Yes,No,No,No,Yes,Yes,0,Medium
+530,Two year,Fiber optic,1,No,No,Yes,No,Yes,Yes,Yes,1,Low
+531,One year,DSL,1,No,No,No,Yes,No,No,No,0,Medium
+532,Month-to-month,DSL,1,No,Yes,No,No,No,No,Yes,1,High
+533,Two year,DSL,0,No phone service,Yes,No,No,Yes,No,No,0,Low
+534,One year,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,Yes,1,Medium
+535,One year,Fiber optic,1,Yes,No,No,Yes,Yes,No,No,0,Medium
+536,One year,Fiber optic,1,No,No,Yes,Yes,Yes,No,No,1,Medium
+537,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,Yes,1,Low
+538,One year,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,Yes,1,Medium
+539,Month-to-month,DSL,1,Yes,No,Yes,Yes,Yes,Yes,Yes,1,High
+540,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,Yes,Yes,Yes,1,High
+541,One year,DSL,1,No,Yes,No,No,Yes,No,No,0,Medium
+542,One year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,No,1,Medium
+543,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,No,1,High
+544,Two year,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,Yes,1,Low
+545,One year,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,Yes,0,Medium
+546,One year,DSL,1,Yes,Yes,No,No,Yes,No,No,0,Medium
+547,Month-to-month,DSL,1,No,Yes,No,Yes,No,No,No,0,High
+548,Month-to-month,DSL,0,No phone service,No,No,Yes,Yes,Yes,No,1,High
+549,Month-to-month,DSL,1,Yes,Yes,No,No,No,No,Yes,0,High
+550,Two year,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,Yes,0,Low
+551,Month-to-month,DSL,1,No,Yes,No,Yes,Yes,No,Yes,1,High
+552,Month-to-month,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,Yes,1,High
+553,One year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,No,0,Medium
+554,Two year,DSL,0,No phone service,No,No,No,Yes,No,Yes,1,Low
+555,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,Yes,0,Low
+556,One year,Fiber optic,1,Yes,No,Yes,No,No,Yes,No,1,Medium
+557,Month-to-month,DSL,1,No,Yes,Yes,Yes,Yes,Yes,No,1,High
+558,Two year,Fiber optic,1,Yes,No,No,No,No,No,Yes,1,Low
+559,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,No,1,Low
+560,Month-to-month,DSL,1,No,No,Yes,No,No,Yes,No,1,High
+561,One year,DSL,1,Yes,No,Yes,No,No,No,Yes,0,Medium
+562,Two year,Fiber optic,1,Yes,Yes,No,No,No,No,No,1,Low
+563,One year,DSL,1,Yes,Yes,No,No,No,No,Yes,0,Medium
+564,Month-to-month,Fiber optic,1,No,Yes,No,Yes,Yes,No,No,1,High
+565,One year,Fiber optic,1,No,Yes,No,Yes,Yes,No,Yes,0,Medium
+566,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,No,1,High
+567,One year,Fiber optic,1,No,Yes,No,Yes,No,Yes,No,0,Medium
+568,One year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,No,1,Medium
+569,Two year,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,No,1,Low
+570,One year,DSL,1,No,Yes,Yes,Yes,No,No,No,1,Medium
+571,Two year,DSL,1,No,No,Yes,Yes,Yes,Yes,Yes,1,Low
+572,One year,Fiber optic,1,No,No,No,No,No,No,Yes,1,Medium
+573,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,No,1,Medium
+574,One year,DSL,1,Yes,Yes,No,Yes,No,No,Yes,1,Medium
+575,One year,DSL,1,No,Yes,Yes,No,Yes,Yes,No,0,Medium
+576,Month-to-month,DSL,1,No,Yes,No,No,No,Yes,Yes,0,High
+577,Two year,Fiber optic,1,Yes,No,No,Yes,No,Yes,Yes,1,Low
+578,Month-to-month,DSL,1,No,No,No,Yes,Yes,Yes,No,0,High
+579,Two year,DSL,1,No,Yes,No,Yes,Yes,No,Yes,1,Low
+580,One year,Fiber optic,1,No,Yes,No,No,Yes,Yes,Yes,0,Medium
+581,Two year,DSL,1,Yes,Yes,Yes,No,Yes,Yes,No,0,Low
+582,One year,DSL,0,No phone service,No,Yes,Yes,Yes,No,No,1,Medium
+583,Two year,DSL,1,Yes,No,Yes,No,Yes,No,No,0,Low
+584,One year,DSL,1,No,No,No,Yes,Yes,No,Yes,0,Medium
+585,Two year,DSL,1,No,Yes,Yes,No,Yes,Yes,Yes,1,Low
+586,One year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,No,0,Medium
+587,Two year,DSL,1,No,Yes,Yes,No,No,Yes,No,1,Low
+588,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,Yes,1,Low
+589,Two year,DSL,1,Yes,Yes,Yes,Yes,No,Yes,Yes,0,Low
+590,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,No,0,Low
+591,Month-to-month,DSL,1,Yes,No,No,No,Yes,No,Yes,0,High
+592,One year,Fiber optic,1,Yes,No,Yes,No,No,No,Yes,1,Medium
+593,Two year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,Yes,0,Low
+594,Two year,DSL,1,No,Yes,No,Yes,Yes,Yes,Yes,0,Low
+595,One year,DSL,1,No,No,No,No,Yes,No,No,0,Medium
+596,Two year,DSL,1,Yes,No,No,Yes,Yes,No,Yes,0,Low
+597,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,Yes,No,No,1,High
+598,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,No,1,Medium
+599,One year,DSL,0,No phone service,Yes,No,No,Yes,Yes,Yes,1,Medium
+600,Two year,Fiber optic,1,No,No,No,Yes,Yes,Yes,Yes,0,Low
+601,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,No,0,Low
+602,One year,Fiber optic,1,No,No,Yes,Yes,No,No,Yes,1,Medium
+603,One year,DSL,1,Yes,No,No,Yes,Yes,Yes,No,1,Medium
+604,One year,DSL,1,No,Yes,Yes,Yes,No,Yes,Yes,0,Medium
+605,Two year,DSL,1,Yes,Yes,Yes,No,No,No,Yes,1,Low
+606,Two year,DSL,1,No,No,No,Yes,Yes,Yes,Yes,1,Low
+607,Month-to-month,DSL,1,No,Yes,No,No,Yes,Yes,No,1,High
+608,One year,DSL,0,No phone service,No,Yes,No,No,No,No,0,Medium
+609,One year,DSL,1,Yes,Yes,Yes,No,Yes,No,Yes,1,Medium
+610,One year,Fiber optic,1,No,No,Yes,No,No,Yes,No,1,Medium
+611,Two year,DSL,1,Yes,No,No,Yes,No,Yes,No,1,Low
+612,Month-to-month,DSL,1,Yes,No,Yes,Yes,No,Yes,Yes,0,High
+613,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,No,No,1,High
+614,Two year,Fiber optic,1,Yes,Yes,No,No,No,No,No,0,Low
+615,Month-to-month,DSL,0,No phone service,No,No,Yes,No,Yes,Yes,0,High
+616,Two year,Fiber optic,1,No,Yes,Yes,Yes,Yes,No,Yes,0,Low
+617,One year,Fiber optic,1,No,No,No,Yes,Yes,Yes,No,1,Medium
+618,Two year,DSL,1,No,Yes,Yes,Yes,No,Yes,Yes,1,Low
+619,Two year,Fiber optic,1,Yes,Yes,Yes,No,Yes,No,No,1,Low
+620,One year,DSL,1,No,Yes,Yes,No,No,No,Yes,0,Medium
+621,Month-to-month,DSL,0,No phone service,No,Yes,No,No,No,Yes,0,High
+622,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,Yes,1,Medium
+623,Two year,DSL,1,No,No,Yes,No,Yes,Yes,Yes,1,Low
+624,One year,DSL,0,No phone service,Yes,Yes,No,Yes,No,No,1,Medium
+625,Two year,DSL,1,Yes,Yes,No,No,No,No,No,0,Low
+626,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,No,No,1,High
+627,One year,DSL,1,Yes,Yes,Yes,No,No,Yes,Yes,0,Medium
+628,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,Yes,0,Low
+629,One year,DSL,1,Yes,Yes,Yes,Yes,No,No,Yes,1,Medium
+630,Two year,DSL,1,No,Yes,No,Yes,Yes,Yes,No,0,Low
+631,Month-to-month,DSL,1,No,No,Yes,No,Yes,No,Yes,1,High
+632,One year,Fiber optic,1,Yes,No,No,No,Yes,No,No,0,Medium
+633,Two year,Fiber optic,1,Yes,No,No,No,No,No,No,1,Low
+634,Two year,DSL,1,No,No,Yes,No,Yes,Yes,No,1,Low
+635,Two year,DSL,1,Yes,No,No,Yes,No,Yes,Yes,1,Low
+636,Two year,DSL,1,No,Yes,No,Yes,Yes,Yes,Yes,1,Low
+637,Month-to-month,DSL,1,No,No,No,Yes,Yes,Yes,No,1,High
+638,One year,DSL,1,No,Yes,No,Yes,Yes,No,Yes,0,Medium
+639,Month-to-month,DSL,1,No,Yes,No,Yes,Yes,Yes,Yes,1,High
+640,Two year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,Yes,1,Low
+641,One year,DSL,0,No phone service,Yes,No,No,Yes,No,No,0,Medium
+642,Two year,DSL,1,Yes,Yes,Yes,No,Yes,Yes,Yes,0,Low
+643,One year,Fiber optic,1,Yes,Yes,Yes,No,Yes,No,No,0,Medium
+644,Two year,Fiber optic,1,Yes,Yes,No,Yes,No,No,Yes,0,Low
+645,Two year,DSL,0,No phone service,No,No,No,Yes,Yes,No,1,Low
+646,Two year,Fiber optic,1,Yes,Yes,No,Yes,Yes,Yes,No,1,Low
+647,Two year,Fiber optic,1,Yes,No,No,Yes,No,Yes,Yes,0,Low
+648,One year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,Yes,0,Medium
+649,One year,DSL,1,Yes,Yes,No,Yes,Yes,No,No,0,Medium
+650,One year,DSL,0,No phone service,Yes,No,No,Yes,No,No,1,Medium
+651,One year,Fiber optic,1,No,No,No,No,No,Yes,Yes,0,Medium
+652,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,Yes,No,No,0,High
+653,One year,Fiber optic,1,Yes,No,No,No,Yes,No,No,1,Medium
+654,Two year,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,Yes,0,Low
+655,Two year,DSL,1,No,Yes,Yes,Yes,No,Yes,Yes,0,Low
+656,One year,DSL,1,Yes,Yes,Yes,No,No,Yes,Yes,1,Medium
+657,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,No,No,0,High
+658,Month-to-month,DSL,1,No,Yes,Yes,Yes,Yes,No,Yes,0,High
+659,One year,Fiber optic,1,No,No,No,Yes,No,No,Yes,0,Medium
+660,Two year,Fiber optic,1,No,No,Yes,No,Yes,No,No,0,Low
+661,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,Yes,0,Low
+662,Month-to-month,DSL,1,No,Yes,No,Yes,Yes,No,No,0,High
+663,Month-to-month,DSL,1,No,Yes,No,No,No,Yes,No,0,High
+664,Two year,DSL,1,Yes,Yes,No,Yes,Yes,No,Yes,0,Low
+665,Two year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,No,0,Low
+666,Two year,DSL,1,No,No,Yes,Yes,Yes,Yes,No,0,Low
+667,One year,DSL,1,No,Yes,No,No,Yes,No,No,1,Medium
+668,Two year,Fiber optic,1,No,Yes,No,Yes,No,No,No,0,Low
+669,Month-to-month,DSL,1,No,No,No,No,Yes,Yes,Yes,0,High
+670,One year,Fiber optic,1,Yes,No,No,No,No,Yes,Yes,1,Medium
+671,Two year,DSL,0,No phone service,Yes,Yes,No,Yes,Yes,Yes,0,Low
+672,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,Yes,1,Low
+673,Month-to-month,DSL,0,No phone service,No,No,No,Yes,No,Yes,1,High
+674,Two year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,Yes,1,Low
+675,Month-to-month,DSL,1,Yes,No,No,No,Yes,Yes,Yes,0,High
+676,One year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,No,0,Medium
+677,Month-to-month,DSL,1,No,Yes,No,No,Yes,Yes,No,0,High
+678,Two year,DSL,0,No phone service,No,No,Yes,Yes,Yes,Yes,0,Low
+679,Two year,Fiber optic,1,Yes,No,Yes,No,No,No,No,1,Low
+680,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,No,No,0,High
+681,Two year,DSL,1,No,Yes,Yes,Yes,Yes,No,No,0,Low
+682,Two year,Fiber optic,1,Yes,Yes,No,Yes,Yes,No,Yes,0,Low
+683,One year,DSL,1,Yes,No,Yes,Yes,No,Yes,No,0,Medium
+684,Month-to-month,DSL,1,No,Yes,No,Yes,Yes,Yes,Yes,0,High
+685,Month-to-month,DSL,1,Yes,No,No,No,Yes,No,No,1,High
+686,Two year,DSL,1,Yes,No,No,No,Yes,No,No,1,Low
+687,Two year,Fiber optic,1,Yes,No,No,Yes,No,No,Yes,1,Low
+688,One year,DSL,1,No,Yes,Yes,Yes,Yes,No,No,1,Medium
+689,One year,DSL,1,No,Yes,No,Yes,No,Yes,No,1,Medium
+690,Two year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,No,0,Low
+691,One year,DSL,1,No,Yes,No,Yes,Yes,No,Yes,1,Medium
+692,One year,DSL,0,No phone service,No,Yes,Yes,No,Yes,No,1,Medium
+693,One year,DSL,1,Yes,No,Yes,No,No,No,No,1,Medium
+694,Two year,DSL,1,Yes,Yes,No,Yes,No,Yes,Yes,0,Low
+695,Two year,DSL,1,No,No,No,No,Yes,No,No,1,Low
+696,Month-to-month,DSL,0,No phone service,Yes,No,Yes,No,Yes,Yes,1,High
+697,One year,Fiber optic,1,No,No,No,No,Yes,Yes,Yes,1,Medium
+698,One year,Fiber optic,1,No,No,No,Yes,Yes,Yes,Yes,1,Medium
+699,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,No,1,Low
+700,Month-to-month,DSL,1,No,No,Yes,No,No,No,Yes,1,High
+701,Month-to-month,DSL,1,No,Yes,No,Yes,No,No,Yes,0,High
+702,One year,Fiber optic,1,Yes,No,Yes,Yes,Yes,Yes,No,1,Medium
+703,Two year,Fiber optic,1,No,No,No,Yes,Yes,Yes,No,0,Low
+704,One year,DSL,0,No phone service,No,No,No,No,No,Yes,0,Medium
+705,Month-to-month,Fiber optic,1,No,Yes,No,No,Yes,No,No,1,High
+706,Two year,Fiber optic,1,No,No,No,No,Yes,Yes,Yes,1,Low
+707,One year,Fiber optic,1,No,Yes,No,No,No,Yes,Yes,0,Medium
+708,Two year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,No,1,Low
+709,One year,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,No,1,Medium
+710,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,No,1,High
+711,Two year,Fiber optic,1,Yes,Yes,No,No,No,Yes,Yes,1,Low
+712,Two year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,No,1,Low
+713,One year,DSL,1,No,No,No,Yes,Yes,Yes,Yes,0,Medium
+714,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,No,0,Medium
+715,Month-to-month,DSL,1,No,Yes,No,Yes,No,No,Yes,1,High
+716,One year,DSL,0,No phone service,Yes,Yes,No,Yes,Yes,No,1,Medium
+717,One year,DSL,1,No,Yes,No,Yes,No,Yes,Yes,1,Medium
+718,Two year,DSL,1,Yes,Yes,Yes,Yes,No,No,No,0,Low
+719,One year,Fiber optic,1,No,Yes,No,Yes,Yes,No,No,0,Medium
+720,Month-to-month,DSL,1,Yes,No,Yes,No,No,Yes,No,1,High
+721,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,No,1,Low
+722,Two year,Fiber optic,1,No,Yes,No,Yes,Yes,Yes,Yes,1,Low
+723,Two year,DSL,1,No,Yes,Yes,Yes,No,No,Yes,0,Low
+724,Two year,DSL,0,No phone service,Yes,No,No,Yes,No,Yes,1,Low
+725,Month-to-month,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,No,0,High
+726,One year,Fiber optic,1,No,Yes,Yes,No,No,Yes,Yes,1,Medium
+727,Two year,DSL,0,No phone service,No,No,Yes,Yes,Yes,Yes,1,Low
+728,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,No,1,Medium
+729,One year,DSL,1,Yes,No,No,No,Yes,Yes,No,1,Medium
+730,Month-to-month,DSL,1,No,Yes,Yes,No,Yes,Yes,No,1,High
+731,One year,DSL,1,No,No,No,Yes,No,No,No,1,Medium
+732,One year,Fiber optic,1,No,Yes,No,Yes,No,Yes,Yes,0,Medium
+733,Month-to-month,DSL,1,Yes,Yes,No,Yes,No,Yes,No,0,High
+734,Month-to-month,DSL,0,No phone service,Yes,No,No,No,Yes,Yes,1,High
+735,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,Yes,1,Low
+736,Two year,Fiber optic,1,No,No,Yes,Yes,No,Yes,Yes,1,Low
+737,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,No,0,High
+738,Month-to-month,DSL,1,No,Yes,No,No,Yes,No,Yes,0,High
+739,One year,DSL,1,Yes,No,No,No,Yes,Yes,Yes,1,Medium
+740,Two year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,Yes,0,Low
+741,One year,DSL,0,No phone service,No,No,Yes,No,Yes,Yes,1,Medium
+742,One year,DSL,0,No phone service,No,No,Yes,Yes,No,No,0,Medium
+743,One year,DSL,1,No,Yes,Yes,No,Yes,No,Yes,1,Medium
+744,One year,DSL,1,No,Yes,Yes,No,Yes,No,No,1,Medium
+745,One year,DSL,1,Yes,No,Yes,Yes,No,Yes,No,1,Medium
+746,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,No,Yes,0,High
+747,One year,DSL,1,Yes,Yes,No,No,No,No,No,1,Medium
+748,Two year,DSL,0,No phone service,Yes,No,Yes,No,Yes,Yes,1,Low
+749,Two year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,Yes,0,Low
+750,One year,DSL,1,Yes,No,No,Yes,Yes,No,Yes,1,Medium
+751,Two year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,No,1,Low
+752,Two year,DSL,1,Yes,No,Yes,No,Yes,Yes,Yes,1,Low
+753,Two year,DSL,1,Yes,No,Yes,No,Yes,Yes,Yes,0,Low
+754,Month-to-month,DSL,1,Yes,Yes,Yes,No,Yes,No,No,1,High
+755,One year,DSL,0,No phone service,Yes,No,No,Yes,Yes,No,0,Medium
+756,Two year,DSL,1,No,No,Yes,Yes,No,Yes,Yes,1,Low
+757,One year,Fiber optic,1,No,Yes,Yes,Yes,No,No,Yes,1,Medium
+758,One year,DSL,1,No,No,Yes,Yes,Yes,No,No,1,Medium
+759,One year,DSL,1,Yes,No,Yes,Yes,No,No,Yes,0,Medium
+760,One year,DSL,1,Yes,Yes,No,No,No,Yes,No,0,Medium
+761,One year,DSL,1,Yes,Yes,No,No,Yes,Yes,Yes,0,Medium
+762,Month-to-month,DSL,1,No,No,Yes,Yes,No,Yes,No,1,High
+763,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,No,1,Low
+764,One year,Fiber optic,1,Yes,No,Yes,Yes,No,Yes,No,0,Medium
+765,One year,DSL,1,No,Yes,Yes,No,Yes,No,Yes,0,Medium
+766,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,No,No,0,High
+767,Two year,DSL,0,No phone service,Yes,Yes,Yes,No,Yes,Yes,0,Low
+768,One year,DSL,0,No phone service,No,No,No,Yes,No,No,0,Medium
+769,Two year,Fiber optic,1,Yes,No,Yes,Yes,No,No,No,1,Low
+770,One year,DSL,1,Yes,Yes,Yes,No,Yes,No,No,0,Medium
+771,Month-to-month,DSL,0,No phone service,Yes,No,Yes,No,No,No,0,High
+772,Two year,DSL,1,Yes,No,Yes,No,Yes,No,Yes,0,Low
+773,Two year,DSL,1,Yes,Yes,Yes,Yes,No,Yes,Yes,1,Low
+774,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,No,Yes,Yes,0,High
+775,One year,DSL,0,No phone service,No,No,No,No,No,No,1,Medium
+776,One year,DSL,1,Yes,No,Yes,No,Yes,Yes,No,1,Medium
+777,Two year,Fiber optic,1,Yes,No,Yes,No,Yes,No,No,1,Low
+778,Two year,DSL,1,Yes,No,No,Yes,Yes,Yes,No,1,Low
+779,Month-to-month,DSL,1,Yes,No,Yes,No,Yes,Yes,No,1,High
+780,Month-to-month,DSL,1,Yes,No,Yes,Yes,No,No,Yes,1,High
+781,Two year,Fiber optic,1,No,No,No,Yes,Yes,No,Yes,1,Low
+782,One year,DSL,1,No,Yes,Yes,No,No,Yes,Yes,1,Medium
+783,Two year,Fiber optic,1,No,No,Yes,No,Yes,No,No,1,Low
+784,One year,DSL,1,Yes,No,No,Yes,No,No,No,0,Medium
+785,One year,DSL,1,No,No,No,Yes,No,No,Yes,0,Medium
+786,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,Yes,No,1,High
+787,Month-to-month,DSL,1,Yes,Yes,Yes,No,No,Yes,No,1,High
+788,Two year,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,No,0,Low
+789,Month-to-month,DSL,1,No,Yes,No,Yes,No,Yes,Yes,1,High
+790,One year,DSL,1,No,Yes,Yes,Yes,No,Yes,No,0,Medium
+791,One year,DSL,0,No phone service,No,Yes,Yes,No,No,No,1,Medium
+792,Two year,DSL,1,No,Yes,No,Yes,Yes,No,No,0,Low
+793,Month-to-month,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,No,1,High
+794,One year,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,Yes,1,Medium
+795,Two year,DSL,1,No,Yes,Yes,Yes,No,Yes,No,1,Low
+796,Month-to-month,DSL,1,No,Yes,Yes,No,Yes,No,Yes,1,High
+797,Two year,DSL,1,No,Yes,No,Yes,Yes,No,No,1,Low
+798,One year,DSL,1,No,No,Yes,Yes,No,No,No,0,Medium
+799,Month-to-month,DSL,1,Yes,Yes,Yes,No,No,No,Yes,1,High
+800,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,Yes,No,No,0,High
+801,Month-to-month,DSL,1,No,Yes,Yes,No,Yes,Yes,Yes,1,High
+802,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,No,0,Low
+803,Month-to-month,DSL,1,Yes,No,No,No,Yes,Yes,No,0,High
+804,Month-to-month,DSL,1,Yes,No,No,No,No,Yes,No,0,High
+805,Two year,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,Yes,0,Low
+806,Month-to-month,Fiber optic,1,Yes,No,No,Yes,Yes,No,Yes,1,High
+807,Month-to-month,DSL,0,No phone service,No,Yes,No,Yes,No,No,0,High
+808,One year,DSL,1,Yes,Yes,Yes,No,No,No,No,1,Medium
+809,One year,Fiber optic,1,No,Yes,No,Yes,No,Yes,Yes,1,Medium
+810,One year,DSL,1,No,Yes,Yes,No,No,No,No,1,Medium
+811,Two year,DSL,0,No phone service,Yes,No,Yes,No,Yes,Yes,0,Low
+812,Two year,Fiber optic,1,Yes,No,Yes,No,Yes,No,Yes,1,Low
+813,Two year,DSL,0,No phone service,Yes,No,No,Yes,Yes,No,1,Low
+814,One year,DSL,1,Yes,No,Yes,Yes,No,Yes,Yes,0,Medium
+815,Two year,DSL,1,No,Yes,No,Yes,Yes,No,Yes,0,Low
+816,Two year,DSL,0,No phone service,Yes,No,No,Yes,Yes,No,0,Low
+817,Month-to-month,DSL,1,Yes,Yes,No,Yes,Yes,Yes,Yes,0,High
+818,Month-to-month,DSL,1,No,No,Yes,Yes,Yes,No,No,0,High
+819,One year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,Yes,0,Medium
+820,Month-to-month,DSL,1,Yes,No,Yes,Yes,Yes,No,No,0,High
+821,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,No,0,High
+822,Two year,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,No,0,Low
+823,One year,DSL,1,No,No,No,No,Yes,No,Yes,0,Medium
+824,Two year,DSL,0,No phone service,No,Yes,Yes,Yes,No,No,0,Low
+825,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,No,Yes,0,High
+826,One year,DSL,1,No,Yes,No,No,No,No,Yes,0,Medium
+827,One year,Fiber optic,1,Yes,No,Yes,Yes,No,No,Yes,1,Medium
+828,Two year,DSL,1,Yes,Yes,No,No,No,Yes,Yes,1,Low
+829,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,No,Yes,No,1,High
+830,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,No,0,Low
+831,Two year,DSL,1,Yes,No,No,Yes,No,Yes,Yes,0,Low
+832,Two year,Fiber optic,1,No,No,Yes,Yes,Yes,No,Yes,1,Low
+833,One year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,Yes,1,Medium
+834,One year,DSL,1,Yes,No,No,Yes,Yes,No,No,1,Medium
+835,One year,DSL,1,No,No,Yes,No,No,Yes,No,0,Medium
+836,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,No,Yes,1,Low
+837,One year,DSL,0,No phone service,No,Yes,No,No,Yes,No,1,Medium
+838,One year,DSL,1,Yes,Yes,Yes,Yes,No,Yes,No,1,Medium
+839,One year,DSL,1,Yes,No,No,Yes,Yes,Yes,Yes,0,Medium
+840,Month-to-month,DSL,1,No,No,No,Yes,Yes,No,Yes,1,High
+841,Two year,Fiber optic,1,Yes,No,No,Yes,No,No,No,1,Low
+842,Two year,DSL,1,No,Yes,Yes,No,No,No,No,0,Low
+843,One year,DSL,1,No,No,Yes,No,Yes,Yes,No,1,Medium
+844,Two year,Fiber optic,1,Yes,No,No,No,Yes,Yes,No,1,Low
+845,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,No,0,Low
+846,One year,Fiber optic,1,Yes,No,Yes,No,Yes,No,Yes,0,Medium
+847,Month-to-month,DSL,1,Yes,No,Yes,No,No,No,Yes,0,High
+848,One year,DSL,0,No phone service,Yes,No,Yes,No,No,Yes,0,Medium
+849,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,Yes,0,High
+850,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,No,No,0,Low
+851,Two year,Fiber optic,1,Yes,No,Yes,Yes,No,No,Yes,1,Low
+852,Two year,Fiber optic,1,Yes,No,Yes,Yes,Yes,No,No,0,Low
+853,Two year,DSL,1,No,Yes,Yes,No,No,No,No,1,Low
+854,Month-to-month,DSL,0,No phone service,Yes,No,No,No,No,Yes,1,High
+855,One year,DSL,1,No,No,No,No,Yes,No,No,1,Medium
+856,One year,DSL,1,No,No,Yes,No,No,Yes,No,1,Medium
+857,One year,DSL,0,No phone service,Yes,Yes,No,Yes,No,No,0,Medium
+858,One year,Fiber optic,1,Yes,No,No,Yes,No,Yes,No,1,Medium
+859,One year,Fiber optic,1,Yes,Yes,Yes,No,No,No,Yes,0,Medium
+860,Month-to-month,Fiber optic,1,No,Yes,No,Yes,Yes,No,Yes,0,High
+861,One year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,Yes,1,Medium
+862,One year,DSL,1,No,No,No,Yes,Yes,No,No,0,Medium
+863,Month-to-month,DSL,0,No phone service,Yes,No,No,No,Yes,No,0,High
+864,One year,Fiber optic,1,No,Yes,Yes,Yes,No,No,No,1,Medium
+865,Two year,DSL,1,No,Yes,No,Yes,No,No,No,1,Low
+866,One year,DSL,0,No phone service,Yes,No,Yes,Yes,No,Yes,0,Medium
+867,One year,Fiber optic,1,No,No,Yes,Yes,No,Yes,No,1,Medium
+868,Two year,DSL,1,Yes,Yes,Yes,No,Yes,No,Yes,1,Low
+869,One year,Fiber optic,1,Yes,No,No,No,Yes,No,Yes,1,Medium
+870,Two year,Fiber optic,1,Yes,No,No,No,Yes,Yes,Yes,0,Low
+871,One year,DSL,1,No,Yes,No,No,Yes,Yes,Yes,0,Medium
+872,One year,Fiber optic,1,No,Yes,No,Yes,No,No,Yes,0,Medium
+873,Two year,Fiber optic,1,Yes,Yes,Yes,No,Yes,No,Yes,1,Low
+874,Two year,DSL,0,No phone service,Yes,No,No,No,Yes,Yes,0,Low
+875,One year,DSL,1,No,No,No,No,Yes,Yes,Yes,1,Medium
+876,One year,DSL,1,Yes,Yes,No,Yes,No,Yes,Yes,0,Medium
+877,Month-to-month,DSL,1,No,Yes,No,No,Yes,Yes,Yes,1,High
+878,Two year,DSL,0,No phone service,Yes,Yes,No,Yes,No,No,0,Low
+879,Month-to-month,DSL,1,No,Yes,No,No,No,Yes,No,1,High
+880,Two year,DSL,0,No phone service,No,No,No,Yes,Yes,Yes,0,Low
+881,Two year,Fiber optic,1,No,No,No,Yes,Yes,Yes,Yes,1,Low
+882,Month-to-month,Fiber optic,1,No,No,Yes,Yes,No,No,Yes,0,High
+883,Two year,DSL,1,Yes,No,No,Yes,Yes,Yes,Yes,1,Low
+884,Two year,DSL,1,No,Yes,Yes,Yes,Yes,No,Yes,1,Low
+885,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,Yes,0,High
+886,Month-to-month,DSL,1,Yes,No,Yes,No,Yes,Yes,Yes,0,High
+887,Month-to-month,DSL,1,No,Yes,No,Yes,Yes,Yes,No,1,High
+888,Month-to-month,DSL,1,Yes,No,Yes,Yes,Yes,No,No,1,High
+889,One year,DSL,0,No phone service,Yes,Yes,Yes,No,No,Yes,0,Medium
+890,Two year,Fiber optic,1,Yes,Yes,No,No,Yes,No,No,1,Low
+891,Two year,DSL,1,No,No,Yes,Yes,No,No,Yes,1,Low
+892,One year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,No,1,Medium
+893,Month-to-month,DSL,1,Yes,Yes,No,Yes,No,No,No,1,High
+894,Two year,DSL,1,No,Yes,No,No,Yes,Yes,Yes,0,Low
+895,One year,Fiber optic,1,No,Yes,Yes,No,Yes,No,Yes,1,Medium
+896,One year,Fiber optic,1,Yes,Yes,No,No,Yes,Yes,No,1,Medium
+897,One year,DSL,1,No,Yes,No,No,No,No,Yes,1,Medium
+898,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,Yes,0,High
+899,Two year,DSL,1,No,Yes,No,Yes,No,Yes,Yes,0,Low
+900,One year,Fiber optic,1,Yes,No,No,No,Yes,Yes,Yes,0,Medium
+901,One year,DSL,1,Yes,No,No,Yes,No,Yes,Yes,0,Medium
+902,One year,Fiber optic,1,Yes,Yes,No,Yes,No,No,No,0,Medium
+903,One year,Fiber optic,1,No,No,Yes,No,No,No,No,1,Medium
+904,Two year,DSL,1,No,Yes,No,Yes,No,Yes,Yes,1,Low
+905,Month-to-month,DSL,0,No phone service,No,Yes,Yes,No,No,No,0,High
+906,Two year,DSL,0,No phone service,Yes,Yes,No,Yes,Yes,No,0,Low
+907,Two year,DSL,1,No,Yes,Yes,Yes,No,No,No,0,Low
+908,One year,DSL,1,Yes,No,Yes,No,Yes,Yes,No,0,Medium
+909,Two year,DSL,1,No,Yes,Yes,Yes,No,No,No,1,Low
+910,Month-to-month,Fiber optic,1,No,Yes,Yes,No,Yes,No,No,0,High
+911,Month-to-month,DSL,0,No phone service,Yes,No,Yes,Yes,No,Yes,0,High
+912,One year,DSL,1,No,Yes,No,Yes,No,No,No,1,Medium
+913,One year,Fiber optic,1,Yes,No,No,Yes,No,No,No,1,Medium
+914,One year,DSL,1,Yes,Yes,No,Yes,No,Yes,No,1,Medium
+915,Two year,DSL,1,No,No,Yes,No,Yes,No,Yes,0,Low
+916,Month-to-month,DSL,1,No,No,Yes,No,Yes,Yes,No,1,High
+917,One year,DSL,1,No,Yes,No,No,Yes,No,Yes,1,Medium
+918,One year,DSL,0,No phone service,Yes,Yes,Yes,No,Yes,No,0,Medium
+919,Two year,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,No,1,Low
+920,One year,Fiber optic,1,No,No,No,Yes,Yes,No,No,0,Medium
+921,One year,DSL,1,No,No,Yes,No,Yes,No,No,0,Medium
+922,Month-to-month,DSL,0,No phone service,Yes,No,No,Yes,No,Yes,1,High
+923,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,Yes,No,0,High
+924,Two year,Fiber optic,1,No,Yes,Yes,No,Yes,No,Yes,0,Low
+925,Two year,Fiber optic,1,No,No,No,No,No,No,No,1,Low
+926,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,Yes,No,0,High
+927,Two year,DSL,0,No phone service,Yes,Yes,No,Yes,No,No,1,Low
+928,Two year,DSL,1,Yes,Yes,Yes,No,Yes,No,No,1,Low
+929,One year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,No,1,Medium
+930,One year,DSL,1,No,No,Yes,Yes,No,No,Yes,1,Medium
+931,Two year,DSL,1,Yes,Yes,No,No,Yes,Yes,No,1,Low
+932,Month-to-month,DSL,0,No phone service,No,No,Yes,Yes,No,No,0,High
+933,Month-to-month,DSL,0,No phone service,Yes,Yes,No,Yes,No,Yes,0,High
+934,Two year,DSL,0,No phone service,Yes,Yes,Yes,No,Yes,Yes,1,Low
+935,Two year,DSL,1,No,Yes,No,Yes,No,No,No,0,Low
+936,One year,Fiber optic,1,No,No,Yes,Yes,No,No,Yes,0,Medium
+937,Two year,DSL,1,No,Yes,Yes,No,Yes,Yes,Yes,0,Low
+938,Month-to-month,DSL,0,No phone service,Yes,Yes,No,Yes,No,No,0,High
+939,One year,DSL,0,No phone service,No,Yes,Yes,Yes,No,Yes,1,Medium
+940,Month-to-month,DSL,1,Yes,No,Yes,Yes,Yes,Yes,No,1,High
+941,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,Yes,Yes,0,High
+942,Month-to-month,DSL,1,No,No,No,Yes,Yes,No,Yes,0,High
+943,One year,Fiber optic,1,No,Yes,No,Yes,Yes,No,Yes,1,Medium
+944,Month-to-month,DSL,1,Yes,No,No,No,No,Yes,Yes,0,High
+945,One year,DSL,1,Yes,No,Yes,Yes,No,No,Yes,1,Medium
+946,One year,DSL,1,No,Yes,No,No,Yes,Yes,No,0,Medium
+947,One year,DSL,0,No phone service,Yes,No,Yes,No,No,No,0,Medium
+948,One year,Fiber optic,1,No,No,Yes,Yes,No,No,No,0,Medium
+949,Month-to-month,DSL,1,No,Yes,Yes,Yes,Yes,Yes,Yes,0,High
+950,One year,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,No,0,Medium
+951,One year,DSL,1,Yes,Yes,No,No,No,Yes,Yes,0,Medium
+952,Two year,Fiber optic,1,No,No,Yes,No,No,Yes,Yes,1,Low
+953,Two year,DSL,1,No,Yes,Yes,No,Yes,No,Yes,1,Low
+954,Month-to-month,DSL,1,Yes,No,Yes,No,No,No,Yes,1,High
+955,Month-to-month,DSL,0,No phone service,Yes,Yes,No,No,Yes,No,1,High
+956,One year,Fiber optic,1,Yes,No,Yes,Yes,No,No,Yes,0,Medium
+957,One year,DSL,0,No phone service,Yes,No,No,Yes,No,Yes,0,Medium
+958,Month-to-month,DSL,1,Yes,No,Yes,Yes,Yes,No,Yes,0,High
+959,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,No,No,Yes,1,High
+960,One year,DSL,1,No,No,No,No,No,No,No,1,Medium
+961,One year,DSL,1,Yes,Yes,Yes,No,No,No,No,0,Medium
+962,One year,Fiber optic,1,No,Yes,Yes,No,No,Yes,Yes,0,Medium
+963,Two year,Fiber optic,1,No,No,Yes,No,Yes,Yes,No,1,Low
+964,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,Yes,1,Low
+965,One year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,No,1,Medium
+966,One year,Fiber optic,1,Yes,No,Yes,No,No,No,No,0,Medium
+967,One year,Fiber optic,1,Yes,Yes,Yes,No,No,Yes,No,0,Medium
+968,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1,Medium
+969,Two year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,No,1,Low
+970,Month-to-month,DSL,1,Yes,No,No,Yes,Yes,Yes,No,1,High
+971,Two year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,No,0,Low
+972,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,Yes,0,Low
+973,One year,Fiber optic,1,Yes,Yes,No,No,Yes,No,Yes,0,Medium
+974,Two year,DSL,1,No,Yes,Yes,Yes,Yes,No,No,1,Low
+975,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,No,Yes,1,High
+976,Month-to-month,DSL,1,No,Yes,Yes,No,No,Yes,No,0,High
+977,One year,DSL,0,No phone service,No,Yes,Yes,Yes,Yes,Yes,0,Medium
+978,One year,Fiber optic,1,No,Yes,No,No,Yes,Yes,No,0,Medium
+979,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,No,0,High
+980,One year,Fiber optic,1,No,Yes,Yes,No,No,No,Yes,0,Medium
+981,One year,Fiber optic,1,Yes,No,No,Yes,No,No,Yes,1,Medium
+982,Two year,DSL,1,No,No,Yes,No,No,No,No,0,Low
+983,One year,DSL,0,No phone service,No,No,Yes,Yes,No,No,1,Medium
+984,Month-to-month,DSL,1,Yes,Yes,Yes,No,Yes,Yes,Yes,0,High
+985,Two year,DSL,1,No,Yes,No,No,Yes,No,No,0,Low
+986,One year,DSL,0,No phone service,Yes,No,No,Yes,Yes,No,1,Medium
+987,One year,DSL,1,Yes,No,Yes,No,No,Yes,No,0,Medium
+988,Month-to-month,DSL,1,Yes,No,Yes,Yes,No,Yes,No,1,High
+989,Month-to-month,Fiber optic,1,Yes,Yes,No,No,No,Yes,No,0,High
+990,One year,DSL,1,No,No,Yes,Yes,Yes,No,Yes,0,Medium
+991,Two year,DSL,1,Yes,Yes,No,No,Yes,No,No,0,Low
+992,One year,Fiber optic,1,No,No,Yes,No,No,No,No,0,Medium
+993,Two year,DSL,1,No,No,No,Yes,Yes,No,Yes,0,Low
+994,One year,DSL,1,Yes,No,Yes,Yes,No,Yes,Yes,1,Medium
+995,One year,DSL,1,No,No,No,No,No,Yes,No,1,Medium
+996,Two year,DSL,1,No,No,No,Yes,Yes,No,No,1,Low
+997,Two year,Fiber optic,1,Yes,Yes,No,Yes,Yes,No,No,1,Low
+998,Two year,DSL,1,Yes,Yes,Yes,Yes,No,No,Yes,1,Low
+999,One year,DSL,0,No phone service,Yes,No,No,No,No,No,1,Medium
+1000,Month-to-month,DSL,1,Yes,No,No,Yes,No,Yes,Yes,0,High
+1001,One year,DSL,1,Yes,No,No,Yes,Yes,No,No,0,Medium
+1002,Two year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,Yes,1,Low
+1003,Month-to-month,Fiber optic,1,No,No,No,Yes,Yes,Yes,Yes,0,High
+1004,Two year,DSL,1,Yes,Yes,Yes,No,Yes,No,No,0,Low
+1005,One year,DSL,1,Yes,Yes,No,No,No,No,No,0,Medium
+1006,One year,Fiber optic,1,No,Yes,No,Yes,No,No,No,1,Medium
+1007,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,No,No,1,Low
+1008,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,No,No,No,0,High
+1009,One year,DSL,1,Yes,No,Yes,No,Yes,No,Yes,0,Medium
+1010,One year,DSL,1,No,No,No,Yes,No,No,Yes,1,Medium
+1011,Month-to-month,DSL,1,No,No,No,Yes,No,Yes,No,0,High
+1012,One year,DSL,1,No,Yes,No,No,Yes,No,Yes,0,Medium
+1013,One year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,Yes,1,Medium
+1014,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,No,1,Medium
+1015,Two year,DSL,1,No,No,Yes,No,No,No,Yes,1,Low
+1016,One year,DSL,0,No phone service,No,No,Yes,Yes,Yes,Yes,1,Medium
+1017,One year,DSL,1,Yes,Yes,No,Yes,No,No,No,0,Medium
+1018,One year,DSL,1,No,Yes,Yes,No,Yes,No,No,0,Medium
+1019,Two year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,No,1,Low
+1020,Two year,DSL,0,No phone service,Yes,Yes,No,No,No,Yes,0,Low
+1021,Two year,DSL,1,Yes,No,No,Yes,No,No,Yes,0,Low
+1022,Two year,Fiber optic,1,No,Yes,No,No,Yes,Yes,Yes,1,Low
+1023,One year,DSL,0,No phone service,No,No,No,Yes,No,Yes,1,Medium
+1024,Month-to-month,DSL,1,Yes,No,Yes,No,Yes,No,Yes,1,High
+1025,Two year,Fiber optic,1,Yes,Yes,Yes,No,No,No,Yes,1,Low
+1026,Two year,DSL,1,No,Yes,Yes,No,Yes,No,Yes,0,Low
+1027,Two year,Fiber optic,1,No,Yes,No,Yes,No,Yes,Yes,0,Low
+1028,One year,Fiber optic,1,No,No,No,No,No,No,Yes,0,Medium
+1029,Month-to-month,DSL,1,No,Yes,Yes,No,Yes,No,Yes,0,High
+1030,One year,DSL,1,Yes,Yes,Yes,Yes,No,No,No,0,Medium
+1031,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,No,Yes,1,High
+1032,One year,DSL,1,Yes,No,No,Yes,No,Yes,No,1,Medium
+1033,One year,Fiber optic,1,No,Yes,Yes,Yes,Yes,Yes,Yes,0,Medium
+1034,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,No,0,Medium
+1035,Two year,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,Yes,1,Low
+1036,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,No,0,Medium
+1037,Month-to-month,DSL,1,Yes,No,No,Yes,No,No,No,1,High
+1038,One year,Fiber optic,1,No,No,Yes,No,Yes,Yes,No,1,Medium
+1039,Two year,Fiber optic,1,Yes,Yes,Yes,No,Yes,Yes,Yes,0,Low
+1040,One year,Fiber optic,1,No,Yes,No,No,No,Yes,No,1,Medium
+1041,Two year,DSL,1,Yes,Yes,No,No,Yes,No,Yes,0,Low
+1042,One year,Fiber optic,1,No,Yes,No,No,No,Yes,No,0,Medium
+1043,One year,DSL,1,No,No,Yes,No,Yes,Yes,Yes,1,Medium
+1044,Month-to-month,DSL,0,No phone service,No,No,Yes,Yes,Yes,No,0,High
+1045,One year,DSL,1,Yes,No,No,Yes,Yes,No,Yes,0,Medium
+1046,Two year,DSL,1,Yes,Yes,No,Yes,No,No,No,0,Low
+1047,Two year,DSL,1,Yes,No,No,Yes,Yes,Yes,Yes,0,Low
+1048,Two year,Fiber optic,1,Yes,No,No,Yes,No,Yes,No,1,Low
+1049,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,Yes,0,Medium
+1050,Two year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,No,1,Low
+1051,Two year,DSL,1,Yes,Yes,No,Yes,No,Yes,No,0,Low
+1052,Month-to-month,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,Yes,1,High
+1053,Month-to-month,DSL,1,Yes,No,Yes,Yes,No,No,No,0,High
+1054,Month-to-month,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,No,1,High
+1055,Two year,DSL,1,Yes,Yes,No,Yes,No,Yes,No,1,Low
+1056,Month-to-month,DSL,0,No phone service,Yes,No,Yes,Yes,No,Yes,1,High
+1057,Two year,DSL,1,Yes,Yes,Yes,Yes,No,No,No,1,Low
+1058,Month-to-month,DSL,1,Yes,No,Yes,No,No,Yes,Yes,1,High
+1059,One year,DSL,1,No,Yes,No,Yes,Yes,Yes,No,0,Medium
+1060,Month-to-month,DSL,1,Yes,Yes,Yes,No,No,No,Yes,0,High
+1061,Month-to-month,DSL,1,No,Yes,Yes,Yes,No,No,No,1,High
+1062,One year,Fiber optic,1,No,Yes,Yes,Yes,Yes,No,No,1,Medium
+1063,One year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,Yes,0,Medium
+1064,Month-to-month,DSL,1,Yes,No,Yes,No,Yes,No,Yes,0,High
+1065,One year,DSL,1,No,No,Yes,Yes,Yes,Yes,Yes,0,Medium
+1066,Month-to-month,DSL,0,No phone service,Yes,Yes,No,No,Yes,No,0,High
+1067,Month-to-month,Fiber optic,1,No,Yes,Yes,Yes,No,No,Yes,1,High
+1068,One year,DSL,0,No phone service,No,No,Yes,Yes,Yes,Yes,0,Medium
+1069,One year,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,Yes,0,Medium
+1070,Month-to-month,DSL,1,No,No,No,No,Yes,No,Yes,1,High
+1071,One year,DSL,1,Yes,No,No,No,Yes,No,No,1,Medium
+1072,Two year,DSL,0,No phone service,No,Yes,No,Yes,Yes,No,0,Low
+1073,One year,DSL,1,No,Yes,Yes,No,Yes,Yes,No,1,Medium
+1074,Two year,DSL,0,No phone service,Yes,Yes,No,No,No,No,0,Low
+1075,Month-to-month,DSL,0,No phone service,Yes,Yes,No,No,No,No,0,High
+1076,Two year,Fiber optic,1,No,No,No,Yes,No,Yes,Yes,0,Low
+1077,One year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,Yes,0,Medium
+1078,Two year,DSL,0,No phone service,Yes,Yes,Yes,No,No,Yes,1,Low
+1079,Month-to-month,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,No,1,High
+1080,Two year,DSL,1,Yes,No,Yes,Yes,No,No,No,0,Low
+1081,One year,DSL,0,No phone service,Yes,Yes,Yes,No,No,No,0,Medium
+1082,One year,DSL,1,No,Yes,Yes,Yes,Yes,Yes,No,1,Medium
+1083,Two year,DSL,0,No phone service,No,No,No,No,Yes,No,0,Low
+1084,One year,DSL,1,No,No,Yes,Yes,Yes,No,No,0,Medium
+1085,One year,DSL,1,Yes,Yes,Yes,No,No,Yes,No,0,Medium
+1086,Two year,DSL,1,Yes,No,No,Yes,No,No,No,0,Low
+1087,One year,Fiber optic,1,No,Yes,No,No,No,Yes,Yes,1,Medium
+1088,One year,DSL,1,Yes,Yes,Yes,No,Yes,Yes,No,1,Medium
+1089,One year,Fiber optic,1,No,Yes,No,Yes,No,No,No,0,Medium
+1090,Month-to-month,DSL,0,No phone service,No,Yes,Yes,Yes,No,No,0,High
+1091,Two year,DSL,1,No,Yes,Yes,No,No,Yes,Yes,1,Low
+1092,Two year,DSL,0,No phone service,Yes,No,Yes,Yes,No,No,1,Low
+1093,One year,Fiber optic,1,No,No,Yes,Yes,Yes,No,Yes,1,Medium
+1094,One year,DSL,1,No,No,Yes,No,No,No,Yes,1,Medium
+1095,One year,DSL,1,Yes,Yes,Yes,Yes,No,No,No,1,Medium
+1096,Month-to-month,DSL,1,Yes,No,No,Yes,No,Yes,No,0,High
+1097,Two year,Fiber optic,1,No,Yes,Yes,No,Yes,No,No,1,Low
+1098,Two year,DSL,1,No,Yes,Yes,Yes,Yes,No,Yes,0,Low
+1099,Two year,DSL,1,No,No,Yes,Yes,Yes,No,No,1,Low
+1100,One year,Fiber optic,1,No,Yes,Yes,No,No,No,No,1,Medium
+1101,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,Yes,Yes,0,High
+1102,Month-to-month,DSL,1,No,Yes,Yes,No,No,Yes,Yes,0,High
+1103,Two year,DSL,1,No,No,Yes,Yes,No,Yes,Yes,0,Low
+1104,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,No,Yes,0,High
+1105,Two year,DSL,1,Yes,Yes,Yes,No,Yes,No,Yes,0,Low
+1106,Two year,DSL,0,No phone service,Yes,No,Yes,No,No,Yes,1,Low
+1107,One year,Fiber optic,1,Yes,Yes,No,No,No,No,No,0,Medium
+1108,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,Yes,No,0,High
+1109,Month-to-month,DSL,0,No phone service,No,No,Yes,Yes,No,No,1,High
+1110,Two year,DSL,0,No phone service,No,Yes,Yes,No,Yes,Yes,0,Low
+1111,Month-to-month,Fiber optic,1,Yes,No,Yes,No,Yes,No,Yes,0,High
+1112,Two year,DSL,1,Yes,No,No,No,Yes,Yes,No,1,Low
+1113,One year,Fiber optic,1,Yes,Yes,Yes,No,Yes,No,No,1,Medium
+1114,One year,Fiber optic,1,No,Yes,No,No,No,No,Yes,1,Medium
+1115,One year,DSL,1,Yes,Yes,No,No,No,Yes,No,1,Medium
+1116,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,Yes,No,1,Medium
+1117,One year,Fiber optic,1,Yes,Yes,No,Yes,No,Yes,Yes,0,Medium
+1118,Month-to-month,DSL,0,No phone service,Yes,No,No,Yes,No,Yes,0,High
+1119,Two year,Fiber optic,1,Yes,Yes,Yes,No,No,No,No,1,Low
+1120,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,No,Yes,0,Low
+1121,One year,Fiber optic,1,No,No,No,No,Yes,No,Yes,1,Medium
+1122,One year,DSL,1,Yes,Yes,No,No,Yes,No,Yes,0,Medium
+1123,One year,DSL,0,No phone service,No,No,Yes,No,No,No,1,Medium
+1124,One year,DSL,0,No phone service,Yes,No,Yes,Yes,No,No,1,Medium
+1125,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,No,No,No,1,High
+1126,Month-to-month,DSL,1,No,No,Yes,Yes,Yes,Yes,Yes,0,High
+1127,One year,DSL,1,Yes,No,No,No,Yes,No,No,0,Medium
+1128,One year,DSL,1,Yes,Yes,Yes,Yes,No,Yes,Yes,0,Medium
+1129,One year,DSL,0,No phone service,Yes,No,No,No,Yes,No,1,Medium
+1130,Two year,DSL,1,Yes,Yes,Yes,No,No,No,Yes,0,Low
+1131,Month-to-month,Fiber optic,1,Yes,Yes,No,No,Yes,No,Yes,1,High
+1132,Two year,DSL,1,No,Yes,No,No,No,Yes,No,1,Low
+1133,Two year,DSL,1,Yes,Yes,No,Yes,Yes,Yes,No,0,Low
+1134,One year,DSL,0,No phone service,No,No,No,Yes,Yes,Yes,1,Medium
+1135,Two year,Fiber optic,1,No,Yes,No,Yes,No,Yes,Yes,1,Low
+1136,One year,Fiber optic,1,Yes,No,Yes,No,Yes,No,No,1,Medium
+1137,Two year,DSL,1,No,Yes,Yes,No,No,No,Yes,1,Low
+1138,Two year,DSL,1,Yes,No,No,No,Yes,Yes,Yes,1,Low
+1139,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,No,No,Yes,1,High
+1140,One year,Fiber optic,1,No,No,No,Yes,Yes,No,Yes,0,Medium
+1141,Two year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,Yes,0,Low
+1142,One year,DSL,1,No,Yes,Yes,No,No,Yes,Yes,0,Medium
+1143,Two year,DSL,1,No,Yes,No,No,Yes,No,Yes,1,Low
+1144,One year,DSL,1,Yes,No,Yes,No,Yes,No,Yes,1,Medium
+1145,One year,DSL,1,No,No,Yes,Yes,No,No,No,1,Medium
+1146,One year,Fiber optic,1,Yes,Yes,Yes,Yes,No,Yes,No,0,Medium
+1147,Two year,Fiber optic,1,No,No,Yes,Yes,No,No,Yes,0,Low
+1148,Month-to-month,DSL,1,Yes,Yes,No,No,Yes,Yes,Yes,0,High
+1149,Two year,Fiber optic,1,Yes,No,No,No,Yes,Yes,Yes,1,Low
+1150,Two year,Fiber optic,1,No,Yes,Yes,No,Yes,Yes,No,1,Low
+1151,One year,Fiber optic,1,Yes,Yes,No,Yes,No,No,No,1,Medium
+1152,One year,DSL,0,No phone service,Yes,Yes,No,No,Yes,No,0,Medium
+1153,Month-to-month,Fiber optic,1,No,No,No,Yes,No,Yes,No,0,High
+1154,Month-to-month,Fiber optic,1,No,No,Yes,Yes,Yes,No,Yes,0,High
+1155,Two year,DSL,1,Yes,No,Yes,Yes,No,Yes,Yes,0,Low
+1156,One year,Fiber optic,1,Yes,Yes,Yes,Yes,Yes,No,Yes,0,Medium
+1157,Two year,DSL,1,Yes,Yes,No,Yes,Yes,No,Yes,1,Low
+1158,One year,DSL,0,No phone service,No,No,No,Yes,Yes,No,0,Medium
+1159,One year,Fiber optic,1,Yes,No,No,Yes,No,No,Yes,0,Medium
+1160,One year,DSL,0,No phone service,No,Yes,No,No,No,Yes,1,Medium
+1161,Two year,Fiber optic,1,No,Yes,Yes,Yes,No,Yes,Yes,0,Low
+1162,One year,DSL,1,Yes,No,Yes,No,No,Yes,Yes,1,Medium
+1163,One year,DSL,0,No phone service,Yes,No,Yes,No,Yes,Yes,0,Medium
+1164,Two year,DSL,0,No phone service,No,Yes,Yes,Yes,No,Yes,0,Low
+1165,One year,DSL,1,No,No,No,Yes,Yes,Yes,No,0,Medium
+1166,Two year,DSL,0,No phone service,Yes,Yes,No,No,Yes,Yes,0,Low
+1167,One year,DSL,1,Yes,Yes,No,No,Yes,Yes,No,1,Medium
+1168,Two year,Fiber optic,1,Yes,Yes,No,No,Yes,No,Yes,0,Low
+1169,One year,DSL,1,No,No,No,No,Yes,Yes,No,0,Medium
+1170,Two year,DSL,1,No,No,No,No,Yes,Yes,No,1,Low
+1171,Two year,Fiber optic,1,Yes,No,No,No,No,Yes,No,0,Low
+1172,Month-to-month,DSL,0,No phone service,No,Yes,No,No,Yes,Yes,0,High
+1173,Month-to-month,DSL,1,Yes,Yes,No,Yes,No,Yes,Yes,1,High
+1174,Two year,DSL,1,No,Yes,No,Yes,No,No,Yes,0,Low
+1175,Two year,Fiber optic,1,No,Yes,Yes,No,Yes,No,No,0,Low
+1176,Month-to-month,DSL,0,No phone service,No,Yes,No,Yes,No,Yes,0,High
+1177,Month-to-month,DSL,0,No phone service,Yes,Yes,Yes,Yes,Yes,No,1,High
+1178,Two year,DSL,1,No,Yes,Yes,No,Yes,Yes,No,0,Low
+1179,One year,DSL,1,No,Yes,No,Yes,No,No,Yes,1,Medium
+1180,Month-to-month,Fiber optic,1,No,Yes,No,Yes,Yes,No,No,0,High
+1181,Month-to-month,Fiber optic,1,Yes,Yes,Yes,No,No,No,No,0,High
+1182,One year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,No,0,Medium
+1183,One year,Fiber optic,1,No,Yes,Yes,Yes,No,No,No,0,Medium
+1184,One year,DSL,1,Yes,Yes,Yes,No,No,No,Yes,1,Medium
+1185,Month-to-month,Fiber optic,1,Yes,Yes,No,Yes,Yes,Yes,No,0,High
+1186,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,No,No,1,Medium
+1187,One year,DSL,1,No,No,Yes,No,Yes,No,Yes,0,Medium
+1188,Two year,DSL,1,Yes,Yes,No,Yes,No,No,Yes,1,Low
+1189,Two year,Fiber optic,1,No,Yes,Yes,Yes,No,Yes,Yes,1,Low
+1190,Two year,DSL,0,No phone service,No,No,Yes,Yes,No,Yes,1,Low
+1191,One year,DSL,1,Yes,Yes,No,No,No,Yes,Yes,1,Medium
+1192,One year,DSL,1,Yes,No,Yes,Yes,Yes,Yes,No,1,Medium
+1193,Month-to-month,DSL,1,No,No,Yes,No,No,Yes,No,0,High
+1194,Month-to-month,Fiber optic,1,No,Yes,Yes,No,No,No,Yes,1,High
+1195,Two year,DSL,0,No phone service,No,Yes,No,No,Yes,Yes,1,Low
+1196,Month-to-month,Fiber optic,1,No,Yes,No,Yes,No,No,Yes,0,High
+1197,One year,DSL,0,No phone service,No,No,Yes,No,Yes,Yes,0,Medium
+1198,Two year,DSL,0,No phone service,Yes,Yes,Yes,Yes,No,Yes,0,Low
+1199,One year,Fiber optic,1,Yes,No,Yes,No,Yes,No,No,0,Medium
+1200,Two year,Fiber optic,1,Yes,Yes,No,No,No,Yes,Yes,0,Low
+1201,Two year,DSL,1,No,No,Yes,No,Yes,Yes,Yes,0,Low
+1202,Two year,DSL,0,No phone service,No,No,Yes,Yes,No,No,0,Low
+1203,One year,DSL,0,No phone service,Yes,No,No,Yes,Yes,Yes,0,Medium
+1204,One year,DSL,0,No phone service,Yes,Yes,Yes,No,No,Yes,1,Medium
+1205,One year,DSL,0,No phone service,Yes,No,Yes,No,No,Yes,1,Medium
+1206,Two year,DSL,1,No,Yes,Yes,Yes,No,No,Yes,1,Low
+1207,One year,DSL,1,No,No,No,Yes,Yes,Yes,No,1,Medium
+1208,Two year,DSL,0,No phone service,No,Yes,Yes,No,No,Yes,1,Low
+1209,One year,Fiber optic,1,No,Yes,Yes,No,Yes,No,Yes,0,Medium
+1210,Month-to-month,Fiber optic,1,No,No,Yes,No,Yes,No,No,0,High
+1211,Two year,DSL,1,No,No,Yes,Yes,Yes,No,Yes,1,Low
+1212,Two year,DSL,1,Yes,Yes,Yes,No,No,No,No,0,Low
+1213,Two year,DSL,1,Yes,No,Yes,Yes,No,No,No,1,Low
+1214,One year,DSL,1,No,No,No,No,No,Yes,No,0,Medium
+1215,One year,DSL,1,Yes,Yes,Yes,Yes,Yes,Yes,No,0,Medium
+1216,One year,DSL,0,No phone service,Yes,Yes,No,No,Yes,No,1,Medium
+1217,Two year,Fiber optic,1,No,No,No,No,No,No,No,0,Low
+1218,One year,DSL,0,No phone service,Yes,No,Yes,No,Yes,No,0,Medium
+1219,Two year,DSL,1,No,Yes,No,No,No,No,No,1,Low
+1220,Month-to-month,DSL,1,No,No,Yes,Yes,Yes,No,No,1,High
+1221,Month-to-month,DSL,1,Yes,No,No,Yes,Yes,No,No,1,High
+1222,Two year,DSL,0,No phone service,Yes,Yes,Yes,No,No,No,1,Low
+1223,One year,DSL,0,No phone service,No,Yes,Yes,Yes,No,Yes,0,Medium
+1224,One year,DSL,1,Yes,Yes,No,Yes,Yes,No,Yes,0,Medium
+1225,One year,DSL,1,No,No,Yes,Yes,No,Yes,Yes,0,Medium
+1226,One year,DSL,1,Yes,Yes,No,No,Yes,Yes,No,0,Medium
+1227,One year,DSL,1,Yes,Yes,Yes,Yes,No,Yes,Yes,1,Medium
+1228,One year,DSL,0,No phone service,Yes,No,Yes,Yes,Yes,No,0,Medium
+1229,Two year,DSL,0,No phone service,No,Yes,No,Yes,Yes,Yes,0,Low
+1230,Month-to-month,DSL,1,Yes,No,Yes,Yes,Yes,Yes,Yes,0,High
+1231,One year,DSL,0,No phone service,No,No,Yes,Yes,No,Yes,0,Medium
+1232,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,No,0,Low
+1233,Month-to-month,DSL,1,Yes,Yes,No,Yes,Yes,No,Yes,1,High
+1234,Month-to-month,Fiber optic,1,Yes,No,Yes,Yes,No,No,Yes,0,High
+1235,One year,Fiber optic,1,No,No,Yes,No,Yes,No,Yes,1,Medium
+1236,One year,Fiber optic,1,No,No,Yes,Yes,No,Yes,Yes,0,Medium
+1237,One year,DSL,0,No phone service,Yes,No,Yes,No,No,No,1,Medium
+1238,One year,DSL,1,Yes,Yes,Yes,No,No,No,Yes,0,Medium
+1239,One year,Fiber optic,1,Yes,Yes,No,Yes,No,No,Yes,1,Medium
+1240,One year,Fiber optic,1,Yes,Yes,No,Yes,Yes,No,No,1,Medium
+1241,Two year,DSL,0,No phone service,No,Yes,No,No,No,Yes,1,Low
+1242,Month-to-month,DSL,1,No,No,No,Yes,No,Yes,Yes,0,High
+1243,Two year,Fiber optic,1,Yes,No,No,Yes,Yes,Yes,No,1,Low
+1244,Two year,DSL,1,No,Yes,No,No,Yes,No,Yes,0,Low
+1245,Two year,DSL,0,No phone service,No,No,Yes,Yes,No,Yes,0,Low
+1246,Month-to-month,DSL,1,No,No,Yes,Yes,Yes,Yes,Yes,1,High
+1247,Month-to-month,DSL,0,No phone service,No,Yes,No,Yes,Yes,No,1,High
+1248,Two year,DSL,1,Yes,No,No,Yes,Yes,No,Yes,1,Low
+1249,One year,Fiber optic,1,No,Yes,No,No,Yes,No,Yes,1,Medium
+1250,One year,DSL,0,No phone service,Yes,Yes,No,Yes,No,Yes,1,Medium
+1251,Month-to-month,DSL,0,No phone service,No,Yes,Yes,No,No,Yes,0,High
+1252,One year,DSL,0,No phone service,No,Yes,No,Yes,Yes,Yes,1,Medium
+1253,One year,Fiber optic,1,No,No,Yes,Yes,Yes,Yes,No,1,Medium
+1254,Month-to-month,DSL,1,No,No,Yes,No,Yes,Yes,Yes,0,High
+1255,Two year,DSL,1,No,No,Yes,No,Yes,Yes,No,0,Low
