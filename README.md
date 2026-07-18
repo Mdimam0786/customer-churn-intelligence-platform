@@ -1,5 +1,5 @@
 # Customer Subscription & Churn Intelligence Platform
-Python · PostgreSQL · Power BI · Streamlit · scikit-learn · License: MIT
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg) ![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-336791.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Power BI](https://img.shields.io/badge/BI-Power%20BI-F2C811.svg) ![Streamlit](https://img.shields.io/badge/app-Streamlit-FF4B4B.svg) ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-F7931E.svg)
 
 This is a full analytics project I built around 7,043 real telecom customers and $139,130.85/month in recurring revenue currently at risk from churn. It goes from a raw IBM Excel/CSV export, through a PostgreSQL star-schema database, into statistics, five machine learning models, and a 9-page executive Power BI dashboard.
 
@@ -7,11 +7,22 @@ I wanted this to cover the whole analytics stack, not just a notebook with some 
 
 **Relevant for:** Data Analyst · BI Developer · Analytics Engineer · Data Scientist roles.
 
-<!-- PLACEHOLDER: once captured, replace this line with 2–3 embedded images from docs/portfolio_screenshots/, e.g.:
-![Churn by contract type](docs/portfolio_screenshots/02_churn_by_contract.png) ![Segment profiles](docs/portfolio_screenshots/segment_profiles.png) ![Streamlit live prediction](docs/portfolio_screenshots/streamlit_prediction.png)
--->
-**A few things this project actually produced:** churn-by-contract-type breakdown · 5-segment K-Means profile chart · feature-importance and ROC curve for the churn model · correlation heatmap across billing/tenure/service fields.
-More charts in `docs/charts/`, `docs/ml_charts/`, and `notebooks/figures/` (50+ figures generated during the notebook build).
+<!-- PLACEHOLDER: once deployed, replace this line with your real Streamlit Community Cloud URL -->
+**🔗 Live demo:** _[deployment in progress]_ · **📊 Dataset:** [IBM Telco Customer Churn on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+---
+
+## A few things this project actually produced
+
+| Churn by contract type | ML segmentation (5 clusters) | Churn model ROC curve |
+|:---:|:---:|:---:|
+| ![Churn by contract type](docs/portfolio_screenshots/02_churn_by_contract.png) | ![Customer segmentation](docs/portfolio_screenshots/07_ml_segmentation.png) | ![ROC curve](docs/portfolio_screenshots/05_ml_roc_curve.png) |
+
+| Churn score calibration | Statistical confidence intervals | Model comparison (CV) |
+|:---:|:---:|:---:|
+| ![Churn score calibration](docs/portfolio_screenshots/03_churn_score_calibration.png) | ![Confidence intervals](docs/portfolio_screenshots/04_statistical_confidence_intervals.png) | ![Model comparison](docs/portfolio_screenshots/06_ml_model_comparison.png) |
+
+More charts in [`docs/charts/`](docs/charts/), [`docs/ml_charts/`](docs/ml_charts/), and [`notebooks/figures/`](notebooks/figures/) (50+ figures generated during the notebook build).
 
 ---
 
@@ -25,6 +36,8 @@ A lot of portfolio projects on this topic stop at a notebook with a train/test s
 - I ran a full statistical testing suite (chi-square with Cramér's V, Welch's t-tests with Cohen's d, one-way ANOVA with η², Wilson confidence intervals) and reported effect sizes alongside p-values, because a large enough sample can make a trivial difference look "significant" if you only look at the p-value
 - I compared three churn models with 5-fold cross-validation and `GridSearchCV` tuning, instead of fitting one model once and calling it done — and I said plainly where a model came up short, rather than only reporting the wins (the CLTV regression tops out around R²=0.22, capped by what's actually knowable from billing/contract fields alone)
 
+---
+
 ## What I found
 
 The strongest single driver of churn, by a wide margin, is contract type: month-to-month customers churn at **42.71%**, two-year contract customers churn at just **2.83%** — confirmed statistically (Cramér's V = 0.41, the largest effect size found in the whole project).
@@ -33,7 +46,22 @@ Out of 7,043 customers, **26.54%** have churned, which works out to about **$139
 
 Customer segmentation (K-Means, silhouette-validated) split customers into 5 usable groups ranging from **3.69% churn** (long-tenured, highest-CLTV customers) up to **47.63% churn** (the highest-risk segment) — a direct targeting map for where retention spend should go first.
 
-Full write-ups: `docs/eda_insights_report.md` (105 findings), `docs/statistics_report.md`, `docs/ml_report.md`
+| Metric | Value |
+|---|---|
+| Customers analyzed | 7,043 (real, IBM Telco) |
+| Overall churn rate | 26.54% |
+| Monthly recurring revenue at risk | $139,130.85 |
+| Highest-risk contract type | Month-to-month (42.71% churn) |
+| Lowest-risk contract type | Two-year (2.83% churn) |
+| Churn model test ROC-AUC | 0.854 |
+| Cost-optimized threshold savings | 54% vs. default 0.5 cutoff |
+| Segments identified | 5 (3.69%–47.63% churn range) |
+| Statistically backed insights | 105+ |
+| Estimated protectable revenue | ~$26K/month (one prioritized action) |
+
+Full write-ups: [`docs/eda_insights_report.md`](docs/eda_insights_report.md) (105 findings), [`docs/statistics_report.md`](docs/statistics_report.md), [`docs/ml_report.md`](docs/ml_report.md)
+
+---
 
 ## How it's put together
 
@@ -72,8 +100,8 @@ Python 3.10+ (pandas, scikit-learn, scipy, numpy), PostgreSQL (SQLite used for l
 
 | Dataset | Source | Rows | License note |
 |---|---|---|---|
-| Telco Customer Churn (Enriched) | IBM sample dataset | 7,043 | Public, widely redistributed for educational/analytical use (also mirrored on Kaggle) |
-| Telco Customer Churn (Standard) | Same source, cross-reference release | 7,043 | Used to validate row counts, join keys, and field values against the enriched file |
+| Telco Customer Churn (Enriched) | IBM sample dataset | 7,043 | Public, widely redistributed for educational/analytical use |
+| Telco Customer Churn (Standard) | [Kaggle mirror](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) | 7,043 | Used to validate row counts, join keys, and field values against the enriched file |
 
 One thing worth flagging: this dataset has no real calendar subscription-start or renewal date — only elapsed tenure in months. Any "cohort" or "over time" language in this project is describing tenure-based groupings, not real calendar trends.
 
@@ -139,18 +167,18 @@ streamlit run app.py
 
 ## Docs
 
-- `docs/data_quality_report.md` — what I found and fixed while cleaning the data
-- `docs/data_dictionary.md` — star schema reference
-- `docs/eda_insights_report.md` — 105 findings
-- `docs/statistics_report.md` — hypothesis tests, effect sizes, regression diagnostics
-- `docs/ml_report.md` — model comparisons, explainability, segmentation
-- `docs/bi_synthesis_report.md` — the actual business recommendations
-- `docs/technical_design_document.md` — every architecture and design decision, with rationale
-- `docs/sql_verification_log.md` — the SQL queries and what they returned
-- `powerbi/dax_measures.md` + `docs/powerbi_dashboard_guide.md` — how the dashboard is built, page by page
-- `docs/business_glossary.md`
-- `docs/resume_bullet_points.md` · `docs/interview_questions.md`
-- `notebooks/` — 6 sequential notebooks (01_data_ingestion → 06_business_impact_analysis), useful if you'd rather review the build in order than jump straight to the reports
+- [`docs/data_quality_report.md`](docs/data_quality_report.md) — what I found and fixed while cleaning the data
+- [`docs/data_dictionary.md`](docs/data_dictionary.md) — star schema reference
+- [`docs/eda_insights_report.md`](docs/eda_insights_report.md) — 105 findings
+- [`docs/statistics_report.md`](docs/statistics_report.md) — hypothesis tests, effect sizes, regression diagnostics
+- [`docs/ml_report.md`](docs/ml_report.md) — model comparisons, explainability, segmentation
+- [`docs/bi_synthesis_report.md`](docs/bi_synthesis_report.md) — the actual business recommendations
+- [`docs/technical_design_document.md`](docs/technical_design_document.md) — every architecture and design decision, with rationale
+- [`docs/sql_verification_log.md`](docs/sql_verification_log.md) — the SQL queries and what they returned
+- [`powerbi/dax_measures.md`](powerbi/dax_measures.md) + [`docs/powerbi_dashboard_guide.md`](docs/powerbi_dashboard_guide.md) — how the dashboard is built, page by page
+- [`docs/business_glossary.md`](docs/business_glossary.md)
+- [`docs/resume_bullet_points.md`](docs/resume_bullet_points.md) · [`docs/interview_questions.md`](docs/interview_questions.md)
+- [`notebooks/`](notebooks/) — 6 sequential notebooks (01_data_ingestion → 06_business_impact_analysis), useful if you'd rather review the build in order than jump straight to the reports
 
 ## One Limitation, Stated Plainly
 
@@ -172,6 +200,6 @@ The full 9-page report is in `powerbi/customer_churn_intelligence.pbix`. Highlig
 ## Author
 
 **Md Imamuddin**
-[GitHub](https://github.com/mdimamuddin) · [LinkedIn](https://linkedin.com/in/mdimamuddin)
+[GitHub](https://github.com/Mdimam0786) · [LinkedIn](customer-churn-intelligence-platform)
 
 If you have questions about any part of this build — the schema decisions, the stats, the modeling trade-offs — I documented my reasoning throughout `docs/` and I'm happy to walk through any of it.
