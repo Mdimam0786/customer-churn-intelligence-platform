@@ -1,0 +1,43 @@
+project:
+  name: "customer-churn-intelligence-platform"
+  phase: "Phase 2 - Data Engineering"
+
+data_sources:
+  primary:
+    name: "IBM Telco Customer Churn (Enriched)"
+    path: "data/raw/Telco_customer_churn.xlsx"
+    format: "xlsx"
+    sheet: "Telco_Churn"
+    source_note: >
+      IBM's enriched Telco Customer Churn sample dataset. Includes geography
+      (country/state/city/zip/lat-long), Churn Score, CLTV, and Churn Reason
+      in addition to standard account/service/billing attributes.
+    license_note: >
+      IBM sample dataset, widely distributed for educational/analytical use
+      (mirrored on Kaggle as "Telco Customer Churn"). No PII beyond a
+      synthetic customer ID is present.
+
+  cross_reference:
+    name: "IBM Telco Customer Churn (Standard)"
+    path: "data/raw/Telco-Customer-Churn.csv"
+    format: "csv"
+    source_note: >
+      Standard/original release of the same underlying customer population,
+      used here to cross-validate row counts, join keys, and field values
+      against the enriched xlsx source.
+
+known_data_quality_issues:
+  - field: "TotalCharges"
+    issue: "11 records have tenure=0 and a blank/whitespace TotalCharges value (brand-new customers with no billing history yet). This is a documented real-world quirk of this dataset, not an ingestion error."
+    resolution: "Coerce to numeric with errors='coerce', impute TotalCharges = MonthlyCharges for these rows (0 months of accrued charges beyond the first bill), and flag with is_new_customer_zero_tenure."
+  - field: "Churn Reason"
+    issue: "Null for all 5,174 non-churned customers by design (a reason only exists if the customer churned)."
+    resolution: "Fill with explicit category 'Not Applicable - Active Customer' rather than leaving null, to make the field safe for BI grouping."
+
+paths:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  logs_dir: "logs"
+
+random_seed: 42
