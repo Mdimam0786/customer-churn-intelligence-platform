@@ -1,0 +1,84 @@
+2026-07-18 16:18:38 | INFO     | utils.data_loader | Loaded 7043 real customer records.
+2026-07-18 16:18:39 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:18:56 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:19:07 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:19:44 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:20:02 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:20:09 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:20:13 | INFO     | pages.statistics | Statistics page rendered.
+2026-07-18 16:20:44 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:20:47 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:20:58 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:25:28 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:25:36 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:25:37 | INFO     | pages.statistics | Statistics page rendered.
+2026-07-18 16:29:37 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:29:51 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:29:57 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:30:03 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:30:08 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:30:47 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:31:44 | INFO     | pages.statistics | Statistics page rendered.
+2026-07-18 16:31:53 | INFO     | pages.sql_insights | SQL query executed successfully, 1 rows returned.
+2026-07-18 16:32:18 | INFO     | pages.customer_search | Customer Search rendered with 7043 filtered results.
+2026-07-18 16:32:30 | INFO     | pages.geography_search | Geography Search rendered with 15 cities (guardrail=30).
+2026-07-18 16:32:33 | INFO     | pages.documentation | Documentation page rendered: project_readme.md
+2026-07-18 16:32:40 | INFO     | pages.documentation | Documentation page rendered: project_report.md
+2026-07-18 16:32:42 | INFO     | pages.documentation | Documentation page rendered: project_readme.md
+2026-07-18 16:38:26 | INFO     | pages.documentation | Documentation page rendered: project_readme.md
+2026-07-18 16:38:34 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:38:37 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:38:40 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:38:46 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:38:52 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:38:59 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:39:01 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:39:05 | INFO     | pages.statistics | Statistics page rendered.
+2026-07-18 16:39:15 | INFO     | pages.customer_search | Customer Search rendered with 7043 filtered results.
+2026-07-18 16:39:18 | INFO     | pages.segment_search | Segment Search page rendered.
+2026-07-18 16:39:20 | INFO     | pages.geography_search | Geography Search rendered with 15 cities (guardrail=30).
+2026-07-18 16:39:23 | INFO     | pages.plan_contract_search | Plan & Contract Search page rendered.
+2026-07-18 16:40:00 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:40:06 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 16:42:35 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 16:59:38 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 17:00:41 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:00:46 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:11:27 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:11:30 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:14:01 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:16:09 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:16:15 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:18:27 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:20:46 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:23:12 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:23:19 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:23:45 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:23:48 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:24:47 | INFO     | utils.data_loader | Loaded 7043 real customer records.
+2026-07-18 17:24:48 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:24:58 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 17:25:12 | INFO     | pages.eda | EDA page rendered with 5348 filtered rows (of 7043 total).
+2026-07-18 17:25:18 | INFO     | pages.eda | EDA page rendered with 3875 filtered rows (of 7043 total).
+2026-07-18 17:25:24 | INFO     | pages.eda | EDA page rendered with 5348 filtered rows (of 7043 total).
+2026-07-18 17:25:26 | INFO     | pages.eda | EDA page rendered with 1473 filtered rows (of 7043 total).
+2026-07-18 17:25:30 | INFO     | pages.eda | EDA page rendered with 1109 filtered rows (of 7043 total).
+2026-07-18 17:25:58 | INFO     | pages.eda | EDA page rendered with 4460 filtered rows (of 7043 total).
+2026-07-18 17:26:40 | INFO     | pages.eda | EDA page rendered with 1109 filtered rows (of 7043 total).
+2026-07-18 17:30:52 | INFO     | pages.statistics | Statistics page rendered.
+2026-07-18 17:31:05 | INFO     | pages.sql_insights | SQL query executed successfully, 3 rows returned.
+2026-07-18 17:31:17 | INFO     | pages.sql_insights | SQL query executed successfully, 15 rows returned.
+2026-07-18 17:31:26 | INFO     | pages.customer_search | Customer Search rendered with 7043 filtered results.
+2026-07-18 17:31:37 | INFO     | pages.customer_search | Customer Search rendered with 7043 filtered results.
+2026-07-18 17:31:47 | INFO     | pages.segment_search | Segment Search page rendered.
+2026-07-18 17:31:59 | INFO     | pages.about | About page rendered.
+2026-07-18 17:37:29 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:37:34 | INFO     | pages.about | About page rendered.
+2026-07-18 17:38:44 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:40:37 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:41:46 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:41:51 | INFO     | pages.home | Home page rendered successfully.
+2026-07-18 17:41:58 | INFO     | pages.eda | EDA page rendered with 7043 filtered rows (of 7043 total).
+2026-07-18 17:42:07 | INFO     | pages.about | About page rendered.
+2026-07-18 17:42:17 | INFO     | pages.documentation | Documentation page rendered: project_readme.md
+2026-07-18 17:42:52 | INFO     | pages.home | Home page rendered successfully.

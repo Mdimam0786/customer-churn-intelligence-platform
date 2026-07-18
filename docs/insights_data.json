@@ -1,0 +1,986 @@
+{
+  "overview": {
+    "total_customers": 7043,
+    "churned_customers": 1869,
+    "retained_customers": 5174,
+    "overall_churn_rate_pct": 26.54,
+    "total_billed_revenue": 16056624.3,
+    "monthly_recurring_revenue": 456116.6,
+    "avg_monthly_charges": 64.76,
+    "avg_tenure_months": 32.37,
+    "median_tenure_months": 29.0,
+    "avg_cltv": 4400.3,
+    "avg_cltv_churned": 4149.41,
+    "avg_cltv_retained": 4490.92,
+    "revenue_at_risk_from_churned_monthly": 139130.85
+  },
+  "contract_analysis": [
+    {
+      "contract_type": "Month-to-month",
+      "customers": 3875,
+      "churned": 1655,
+      "avg_monthly_charges": 66.4,
+      "avg_tenure": 18.04,
+      "avg_cltv": 4136.71,
+      "total_revenue": 5305861.5,
+      "churn_rate_pct": 42.71
+    },
+    {
+      "contract_type": "One year",
+      "customers": 1473,
+      "churned": 166,
+      "avg_monthly_charges": 65.05,
+      "avg_tenure": 42.04,
+      "avg_cltv": 4529.96,
+      "total_revenue": 4467073.2,
+      "churn_rate_pct": 11.27
+    },
+    {
+      "contract_type": "Two year",
+      "customers": 1695,
+      "churned": 48,
+      "avg_monthly_charges": 60.77,
+      "avg_tenure": 56.74,
+      "avg_cltv": 4890.21,
+      "total_revenue": 6283689.6,
+      "churn_rate_pct": 2.83
+    }
+  ],
+  "internet_service_analysis": [
+    {
+      "internet_service": "Fiber optic",
+      "customers": 3096,
+      "churned": 1297,
+      "avg_monthly_charges": 91.5,
+      "avg_tenure": 32.92,
+      "avg_cltv": 4415.2,
+      "total_revenue": 9923622.95,
+      "churn_rate_pct": 41.89
+    },
+    {
+      "internet_service": "DSL",
+      "customers": 2421,
+      "churned": 459,
+      "avg_monthly_charges": 58.1,
+      "avg_tenure": 32.82,
+      "avg_cltv": 4397.57,
+      "total_revenue": 5121735.55,
+      "churn_rate_pct": 18.96
+    },
+    {
+      "internet_service": "No",
+      "customers": 1526,
+      "churned": 113,
+      "avg_monthly_charges": 21.08,
+      "avg_tenure": 30.55,
+      "avg_cltv": 4374.38,
+      "total_revenue": 1011265.8,
+      "churn_rate_pct": 7.4
+    }
+  ],
+  "payment_method_analysis": [
+    {
+      "payment_method": "Electronic check",
+      "customers": 2365,
+      "churned": 1071,
+      "avg_monthly_charges": 76.26,
+      "avg_tenure": 25.17,
+      "avg_cltv": 4282.67,
+      "total_revenue": 4944903.25,
+      "churn_rate_pct": 45.29
+    },
+    {
+      "payment_method": "Mailed check",
+      "customers": 1612,
+      "churned": 308,
+      "avg_monthly_charges": 43.92,
+      "avg_tenure": 21.83,
+      "avg_cltv": 4198.43,
+      "total_revenue": 1691677.3,
+      "churn_rate_pct": 19.11
+    },
+    {
+      "payment_method": "Bank transfer (automatic)",
+      "customers": 1544,
+      "churned": 258,
+      "avg_monthly_charges": 67.19,
+      "avg_tenure": 43.66,
+      "avg_cltv": 4615.78,
+      "total_revenue": 4748394.35,
+      "churn_rate_pct": 16.71
+    },
+    {
+      "payment_method": "Credit card (automatic)",
+      "customers": 1522,
+      "churned": 232,
+      "avg_monthly_charges": 66.51,
+      "avg_tenure": 43.27,
+      "avg_cltv": 4578.28,
+      "total_revenue": 4671649.4,
+      "churn_rate_pct": 15.24
+    }
+  ],
+  "tenure_cohort_analysis": [
+    {
+      "tenure_cohort": "0-12 mo",
+      "customers": 2186,
+      "churned": 1037,
+      "avg_monthly_charges": 56.1,
+      "avg_tenure": 4.73,
+      "avg_cltv": 4036.29,
+      "total_revenue": 602107.5,
+      "churn_rate_pct": 47.44
+    },
+    {
+      "tenure_cohort": "13-24 mo",
+      "customers": 1024,
+      "churned": 294,
+      "avg_monthly_charges": 61.36,
+      "avg_tenure": 18.35,
+      "avg_cltv": 4015.2,
+      "total_revenue": 1153287.7,
+      "churn_rate_pct": 28.71
+    },
+    {
+      "tenure_cohort": "25-36 mo",
+      "customers": 832,
+      "churned": 180,
+      "avg_monthly_charges": 65.58,
+      "avg_tenure": 30.34,
+      "avg_cltv": 4033.23,
+      "total_revenue": 1655845.8,
+      "churn_rate_pct": 21.63
+    },
+    {
+      "tenure_cohort": "37-48 mo",
+      "customers": 762,
+      "churned": 145,
+      "avg_monthly_charges": 66.32,
+      "avg_tenure": 42.58,
+      "avg_cltv": 3945.86,
+      "total_revenue": 2154534.55,
+      "churn_rate_pct": 19.03
+    },
+    {
+      "tenure_cohort": "49-60 mo",
+      "customers": 832,
+      "churned": 120,
+      "avg_monthly_charges": 70.55,
+      "avg_tenure": 54.49,
+      "avg_cltv": 5236.89,
+      "total_revenue": 3201646.3,
+      "churn_rate_pct": 14.42
+    },
+    {
+      "tenure_cohort": "61-72 mo",
+      "customers": 1407,
+      "churned": 93,
+      "avg_monthly_charges": 75.95,
+      "avg_tenure": 68.11,
+      "avg_cltv": 5214.58,
+      "total_revenue": 7289202.45,
+      "churn_rate_pct": 6.61
+    }
+  ],
+  "demographic_analysis": {
+    "gender": [
+      {
+        "gender": "Female",
+        "customers": 3488,
+        "churned": 939,
+        "avg_monthly_charges": 65.2,
+        "avg_tenure": 32.24,
+        "avg_cltv": 4408.48,
+        "total_revenue": 7952637.0,
+        "churn_rate_pct": 26.92
+      },
+      {
+        "gender": "Male",
+        "customers": 3555,
+        "churned": 930,
+        "avg_monthly_charges": 64.33,
+        "avg_tenure": 32.5,
+        "avg_cltv": 4392.27,
+        "total_revenue": 8103987.3,
+        "churn_rate_pct": 26.16
+      }
+    ],
+    "senior_citizen": [
+      {
+        "senior_citizen": "Yes",
+        "customers": 1142,
+        "churned": 476,
+        "avg_monthly_charges": 79.82,
+        "avg_tenure": 33.3,
+        "avg_cltv": 4391.78,
+        "total_revenue": 3209551.25,
+        "churn_rate_pct": 41.68
+      },
+      {
+        "senior_citizen": "No",
+        "customers": 5901,
+        "churned": 1393,
+        "avg_monthly_charges": 61.85,
+        "avg_tenure": 32.19,
+        "avg_cltv": 4401.94,
+        "total_revenue": 12847073.05,
+        "churn_rate_pct": 23.61
+      }
+    ],
+    "has_partner": [
+      {
+        "has_partner": "No",
+        "customers": 3641,
+        "churned": 1200,
+        "avg_monthly_charges": 61.95,
+        "avg_tenure": 23.36,
+        "avg_cltv": 4242.66,
+        "total_revenue": 5767753.15,
+        "churn_rate_pct": 32.96
+      },
+      {
+        "has_partner": "Yes",
+        "customers": 3402,
+        "churned": 669,
+        "avg_monthly_charges": 67.78,
+        "avg_tenure": 42.02,
+        "avg_cltv": 4569.01,
+        "total_revenue": 10288871.15,
+        "churn_rate_pct": 19.66
+      }
+    ],
+    "has_dependents": [
+      {
+        "has_dependents": "No",
+        "customers": 5416,
+        "churned": 1763,
+        "avg_monthly_charges": 67.14,
+        "avg_tenure": 30.6,
+        "avg_cltv": 4362.55,
+        "total_revenue": 12141429.65,
+        "churn_rate_pct": 32.55
+      },
+      {
+        "has_dependents": "Yes",
+        "customers": 1627,
+        "churned": 106,
+        "avg_monthly_charges": 56.85,
+        "avg_tenure": 38.26,
+        "avg_cltv": 4525.96,
+        "total_revenue": 3915194.65,
+        "churn_rate_pct": 6.52
+      }
+    ]
+  },
+  "addon_analysis": [
+    {
+      "addon_service_count": 0,
+      "customers": 2219,
+      "churned": 475,
+      "avg_monthly_charges": 32.79,
+      "churn_rate_pct": 21.41
+    },
+    {
+      "addon_service_count": 1,
+      "customers": 966,
+      "churned": 442,
+      "avg_monthly_charges": 65.57,
+      "churn_rate_pct": 45.76
+    },
+    {
+      "addon_service_count": 2,
+      "customers": 1033,
+      "churned": 370,
+      "avg_monthly_charges": 72.42,
+      "churn_rate_pct": 35.82
+    },
+    {
+      "addon_service_count": 3,
+      "customers": 1118,
+      "churned": 306,
+      "avg_monthly_charges": 80.11,
+      "churn_rate_pct": 27.37
+    },
+    {
+      "addon_service_count": 4,
+      "customers": 852,
+      "churned": 190,
+      "avg_monthly_charges": 87.77,
+      "churn_rate_pct": 22.3
+    },
+    {
+      "addon_service_count": 5,
+      "customers": 571,
+      "churned": 71,
+      "avg_monthly_charges": 92.18,
+      "churn_rate_pct": 12.43
+    },
+    {
+      "addon_service_count": 6,
+      "customers": 284,
+      "churned": 15,
+      "avg_monthly_charges": 99.37,
+      "churn_rate_pct": 5.28
+    }
+  ],
+  "churn_reason_breakdown": [
+    {
+      "churn_reason": "Attitude of support person",
+      "customers": 192,
+      "avg_monthly_charges": 72.82,
+      "avg_tenure": 18.09,
+      "lost_monthly_revenue": 13980.85,
+      "pct_of_churn": 10.27
+    },
+    {
+      "churn_reason": "Competitor offered higher download speeds",
+      "customers": 189,
+      "avg_monthly_charges": 74.84,
+      "avg_tenure": 19.54,
+      "lost_monthly_revenue": 14144.6,
+      "pct_of_churn": 10.11
+    },
+    {
+      "churn_reason": "Competitor offered more data",
+      "customers": 162,
+      "avg_monthly_charges": 76.25,
+      "avg_tenure": 19.82,
+      "lost_monthly_revenue": 12351.75,
+      "pct_of_churn": 8.67
+    },
+    {
+      "churn_reason": "Don't know",
+      "customers": 154,
+      "avg_monthly_charges": 72.07,
+      "avg_tenure": 16.8,
+      "lost_monthly_revenue": 11099.05,
+      "pct_of_churn": 8.24
+    },
+    {
+      "churn_reason": "Competitor made better offer",
+      "customers": 140,
+      "avg_monthly_charges": 76.23,
+      "avg_tenure": 15.86,
+      "lost_monthly_revenue": 10672.1,
+      "pct_of_churn": 7.49
+    },
+    {
+      "churn_reason": "Attitude of service provider",
+      "customers": 135,
+      "avg_monthly_charges": 77.03,
+      "avg_tenure": 17.84,
+      "lost_monthly_revenue": 10399.3,
+      "pct_of_churn": 7.22
+    },
+    {
+      "churn_reason": "Competitor had better devices",
+      "customers": 130,
+      "avg_monthly_charges": 72.56,
+      "avg_tenure": 15.97,
+      "lost_monthly_revenue": 9432.35,
+      "pct_of_churn": 6.96
+    },
+    {
+      "churn_reason": "Network reliability",
+      "customers": 103,
+      "avg_monthly_charges": 72.79,
+      "avg_tenure": 17.0,
+      "lost_monthly_revenue": 7497.55,
+      "pct_of_churn": 5.51
+    },
+    {
+      "churn_reason": "Product dissatisfaction",
+      "customers": 102,
+      "avg_monthly_charges": 73.81,
+      "avg_tenure": 21.13,
+      "lost_monthly_revenue": 7528.65,
+      "pct_of_churn": 5.46
+    },
+    {
+      "churn_reason": "Price too high",
+      "customers": 98,
+      "avg_monthly_charges": 75.5,
+      "avg_tenure": 18.5,
+      "lost_monthly_revenue": 7398.55,
+      "pct_of_churn": 5.24
+    },
+    {
+      "churn_reason": "Service dissatisfaction",
+      "customers": 89,
+      "avg_monthly_charges": 75.65,
+      "avg_tenure": 18.12,
+      "lost_monthly_revenue": 6733.25,
+      "pct_of_churn": 4.76
+    },
+    {
+      "churn_reason": "Lack of self-service on Website",
+      "customers": 88,
+      "avg_monthly_charges": 72.16,
+      "avg_tenure": 15.24,
+      "lost_monthly_revenue": 6349.65,
+      "pct_of_churn": 4.71
+    },
+    {
+      "churn_reason": "Extra data charges",
+      "customers": 57,
+      "avg_monthly_charges": 79.71,
+      "avg_tenure": 21.58,
+      "lost_monthly_revenue": 4543.4,
+      "pct_of_churn": 3.05
+    },
+    {
+      "churn_reason": "Moved",
+      "customers": 53,
+      "avg_monthly_charges": 77.94,
+      "avg_tenure": 19.28,
+      "lost_monthly_revenue": 4131.0,
+      "pct_of_churn": 2.84
+    },
+    {
+      "churn_reason": "Lack of affordable download/upload speed",
+      "customers": 44,
+      "avg_monthly_charges": 72.39,
+      "avg_tenure": 20.11,
+      "lost_monthly_revenue": 3185.05,
+      "pct_of_churn": 2.35
+    },
+    {
+      "churn_reason": "Limited range of services",
+      "customers": 44,
+      "avg_monthly_charges": 68.76,
+      "avg_tenure": 12.57,
+      "lost_monthly_revenue": 3025.25,
+      "pct_of_churn": 2.35
+    },
+    {
+      "churn_reason": "Long distance charges",
+      "customers": 44,
+      "avg_monthly_charges": 78.36,
+      "avg_tenure": 19.48,
+      "lost_monthly_revenue": 3447.9,
+      "pct_of_churn": 2.35
+    },
+    {
+      "churn_reason": "Poor expertise of phone support",
+      "customers": 20,
+      "avg_monthly_charges": 72.16,
+      "avg_tenure": 19.4,
+      "lost_monthly_revenue": 1443.3,
+      "pct_of_churn": 1.07
+    },
+    {
+      "churn_reason": "Poor expertise of online support",
+      "customers": 19,
+      "avg_monthly_charges": 71.4,
+      "avg_tenure": 14.32,
+      "lost_monthly_revenue": 1356.65,
+      "pct_of_churn": 1.02
+    },
+    {
+      "churn_reason": "Deceased",
+      "customers": 6,
+      "avg_monthly_charges": 68.44,
+      "avg_tenure": 8.83,
+      "lost_monthly_revenue": 410.65,
+      "pct_of_churn": 0.32
+    }
+  ],
+  "churn_score_decile_analysis": [
+    {
+      "churn_score_decile": 10,
+      "customers": 655,
+      "actual_churned": 655,
+      "avg_churn_score": 94.1,
+      "avg_cltv": 4171.05,
+      "total_monthly_revenue": 48811.95,
+      "actual_churn_rate_pct": 100.0
+    },
+    {
+      "churn_score_decile": 9,
+      "customers": 672,
+      "actual_churned": 500,
+      "avg_churn_score": 82.1,
+      "avg_cltv": 4210.84,
+      "total_monthly_revenue": 47607.75,
+      "actual_churn_rate_pct": 74.4
+    },
+    {
+      "churn_score_decile": 8,
+      "customers": 681,
+      "actual_churned": 252,
+      "avg_churn_score": 76.1,
+      "avg_cltv": 4419.68,
+      "total_monthly_revenue": 44724.15,
+      "actual_churn_rate_pct": 37.0
+    },
+    {
+      "churn_score_decile": 7,
+      "customers": 691,
+      "actual_churned": 261,
+      "avg_churn_score": 71.0,
+      "avg_cltv": 4317.21,
+      "total_monthly_revenue": 46114.95,
+      "actual_churn_rate_pct": 37.77
+    },
+    {
+      "churn_score_decile": 6,
+      "customers": 799,
+      "actual_churned": 201,
+      "avg_churn_score": 65.4,
+      "avg_cltv": 4372.71,
+      "total_monthly_revenue": 51674.1,
+      "actual_churn_rate_pct": 25.16
+    },
+    {
+      "churn_score_decile": 5,
+      "customers": 686,
+      "actual_churned": 0,
+      "avg_churn_score": 57.3,
+      "avg_cltv": 4603.44,
+      "total_monthly_revenue": 41878.85,
+      "actual_churn_rate_pct": 0.0
+    },
+    {
+      "churn_score_decile": 4,
+      "customers": 679,
+      "actual_churned": 0,
+      "avg_churn_score": 49.5,
+      "avg_cltv": 4460.13,
+      "total_monthly_revenue": 42681.3,
+      "actual_churn_rate_pct": 0.0
+    },
+    {
+      "churn_score_decile": 3,
+      "customers": 759,
+      "actual_churned": 0,
+      "avg_churn_score": 41.0,
+      "avg_cltv": 4449.49,
+      "total_monthly_revenue": 46247.75,
+      "actual_churn_rate_pct": 0.0
+    },
+    {
+      "churn_score_decile": 2,
+      "customers": 638,
+      "actual_churned": 0,
+      "avg_churn_score": 32.4,
+      "avg_cltv": 4454.63,
+      "total_monthly_revenue": 38822.85,
+      "actual_churn_rate_pct": 0.0
+    },
+    {
+      "churn_score_decile": 1,
+      "customers": 783,
+      "actual_churned": 0,
+      "avg_churn_score": 23.9,
+      "avg_cltv": 4517.46,
+      "total_monthly_revenue": 47552.95,
+      "actual_churn_rate_pct": 0.0
+    }
+  ],
+  "top_cities": {
+    "top_by_revenue": [
+      {
+        "city": "Los Angeles",
+        "customers": 305,
+        "churned": 90,
+        "total_revenue": 647771.1,
+        "churn_rate_pct": 29.51
+      },
+      {
+        "city": "San Diego",
+        "customers": 150,
+        "churned": 50,
+        "total_revenue": 354896.6,
+        "churn_rate_pct": 33.33
+      },
+      {
+        "city": "Sacramento",
+        "customers": 108,
+        "churned": 26,
+        "total_revenue": 256295.05,
+        "churn_rate_pct": 24.07
+      },
+      {
+        "city": "San Jose",
+        "customers": 112,
+        "churned": 29,
+        "total_revenue": 243735.55,
+        "churn_rate_pct": 25.89
+      },
+      {
+        "city": "San Francisco",
+        "customers": 104,
+        "churned": 31,
+        "total_revenue": 221624.65,
+        "churn_rate_pct": 29.81
+      },
+      {
+        "city": "Fresno",
+        "customers": 64,
+        "churned": 16,
+        "total_revenue": 154890.1,
+        "churn_rate_pct": 25.0
+      },
+      {
+        "city": "Long Beach",
+        "customers": 60,
+        "churned": 15,
+        "total_revenue": 141928.85,
+        "churn_rate_pct": 25.0
+      },
+      {
+        "city": "Oakland",
+        "customers": 52,
+        "churned": 13,
+        "total_revenue": 114974.75,
+        "churn_rate_pct": 25.0
+      },
+      {
+        "city": "Whittier",
+        "customers": 30,
+        "churned": 5,
+        "total_revenue": 96832.3,
+        "churn_rate_pct": 16.67
+      },
+      {
+        "city": "Bakersfield",
+        "customers": 40,
+        "churned": 3,
+        "total_revenue": 93714.4,
+        "churn_rate_pct": 7.5
+      }
+    ],
+    "top_by_churn_rate_min5cust": [
+      {
+        "city": "Seeley",
+        "customers": 5,
+        "churned": 4,
+        "total_revenue": 6930.6,
+        "churn_rate_pct": 80.0
+      },
+      {
+        "city": "Indian Wells",
+        "customers": 5,
+        "churned": 4,
+        "total_revenue": 4798.3,
+        "churn_rate_pct": 80.0
+      },
+      {
+        "city": "San Dimas",
+        "customers": 5,
+        "churned": 4,
+        "total_revenue": 7075.2,
+        "churn_rate_pct": 80.0
+      },
+      {
+        "city": "Panorama City",
+        "customers": 5,
+        "churned": 4,
+        "total_revenue": 9152.05,
+        "churn_rate_pct": 80.0
+      },
+      {
+        "city": "La Puente",
+        "customers": 10,
+        "churned": 7,
+        "total_revenue": 10554.15,
+        "churn_rate_pct": 70.0
+      },
+      {
+        "city": "Daly City",
+        "customers": 8,
+        "churned": 5,
+        "total_revenue": 16385.2,
+        "churn_rate_pct": 62.5
+      },
+      {
+        "city": "Lompoc",
+        "customers": 8,
+        "churned": 5,
+        "total_revenue": 17728.65,
+        "churn_rate_pct": 62.5
+      },
+      {
+        "city": "Guatay",
+        "customers": 5,
+        "churned": 3,
+        "total_revenue": 5919.3,
+        "churn_rate_pct": 60.0
+      },
+      {
+        "city": "South Pasadena",
+        "customers": 5,
+        "churned": 3,
+        "total_revenue": 8666.35,
+        "churn_rate_pct": 60.0
+      },
+      {
+        "city": "Del Mar",
+        "customers": 5,
+        "churned": 3,
+        "total_revenue": 20734.95,
+        "churn_rate_pct": 60.0
+      }
+    ]
+  },
+  "correlation_matrix": {
+    "tenure_months": {
+      "tenure_months": 1.0,
+      "monthly_charges": 0.248,
+      "total_charges": 0.826,
+      "churn_score": -0.225,
+      "cltv": 0.396,
+      "addon_service_count": 0.494,
+      "avg_revenue_per_tenure_month": 0.247,
+      "churn_flag": -0.352
+    },
+    "monthly_charges": {
+      "tenure_months": 0.248,
+      "monthly_charges": 1.0,
+      "total_charges": 0.651,
+      "churn_score": 0.134,
+      "cltv": 0.099,
+      "addon_service_count": 0.725,
+      "avg_revenue_per_tenure_month": 0.996,
+      "churn_flag": 0.193
+    },
+    "total_charges": {
+      "tenure_months": 0.826,
+      "monthly_charges": 0.651,
+      "total_charges": 1.0,
+      "churn_score": -0.123,
+      "cltv": 0.342,
+      "addon_service_count": 0.745,
+      "avg_revenue_per_tenure_month": 0.651,
+      "churn_flag": -0.198
+    },
+    "churn_score": {
+      "tenure_months": -0.225,
+      "monthly_charges": 0.134,
+      "total_charges": -0.123,
+      "churn_score": 1.0,
+      "cltv": -0.08,
+      "addon_service_count": -0.058,
+      "avg_revenue_per_tenure_month": 0.133,
+      "churn_flag": 0.665
+    },
+    "cltv": {
+      "tenure_months": 0.396,
+      "monthly_charges": 0.099,
+      "total_charges": 0.342,
+      "churn_score": -0.08,
+      "cltv": 1.0,
+      "addon_service_count": 0.187,
+      "avg_revenue_per_tenure_month": 0.1,
+      "churn_flag": -0.127
+    },
+    "addon_service_count": {
+      "tenure_months": 0.494,
+      "monthly_charges": 0.725,
+      "total_charges": 0.745,
+      "churn_score": -0.058,
+      "cltv": 0.187,
+      "addon_service_count": 1.0,
+      "avg_revenue_per_tenure_month": 0.723,
+      "churn_flag": -0.088
+    },
+    "avg_revenue_per_tenure_month": {
+      "tenure_months": 0.247,
+      "monthly_charges": 0.996,
+      "total_charges": 0.651,
+      "churn_score": 0.133,
+      "cltv": 0.1,
+      "addon_service_count": 0.723,
+      "avg_revenue_per_tenure_month": 1.0,
+      "churn_flag": 0.193
+    },
+    "churn_flag": {
+      "tenure_months": -0.352,
+      "monthly_charges": 0.193,
+      "total_charges": -0.198,
+      "churn_score": 0.665,
+      "cltv": -0.127,
+      "addon_service_count": -0.088,
+      "avg_revenue_per_tenure_month": 0.193,
+      "churn_flag": 1.0
+    }
+  },
+  "service_adoption_funnel": {
+    "total_customers": 7043,
+    "has_phone_service": {
+      "count": 6361,
+      "pct": 90.32
+    },
+    "has_internet_service": {
+      "count": 5517,
+      "pct": 78.33
+    },
+    "has_phone_and_internet": {
+      "count": 4835,
+      "pct": 68.65
+    },
+    "has_1plus_addon_services": {
+      "count": 4824,
+      "pct": 68.49
+    },
+    "has_3plus_addon_services": {
+      "count": 2825,
+      "pct": 40.11
+    },
+    "full_addon_bundle_all6": {
+      "count": 284,
+      "pct": 4.03
+    }
+  },
+  "revenue_concentration": {
+    "top_10pct_by_cltv_revenue_share_pct": 17.2,
+    "top_20pct_by_cltv_revenue_share_pct": 28.22,
+    "top_50pct_by_cltv_revenue_share_pct": 63.51
+  },
+  "statistical_tests": {
+    "chi_square_categorical_vs_churn": [
+      {
+        "variable": "contract_type",
+        "chi2": 1184.597,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "internet_service",
+        "chi2": 732.31,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "payment_method",
+        "chi2": 648.142,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "gender",
+        "chi2": 0.484,
+        "p_value": 0.486579,
+        "significant_at_05": false
+      },
+      {
+        "variable": "senior_citizen",
+        "chi2": 159.426,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "has_partner",
+        "chi2": 158.733,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "has_dependents",
+        "chi2": 433.734,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "paperless_billing",
+        "chi2": 258.278,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "tenure_cohort",
+        "chi2": 873.858,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "multiple_lines",
+        "chi2": 11.33,
+        "p_value": 0.003464,
+        "significant_at_05": true
+      },
+      {
+        "variable": "online_security",
+        "chi2": 849.999,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "tech_support",
+        "chi2": 828.197,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "streaming_tv",
+        "chi2": 374.204,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "streaming_movies",
+        "chi2": 375.661,
+        "p_value": 0.0,
+        "significant_at_05": true
+      }
+    ],
+    "ttest_numeric_vs_churn": [
+      {
+        "variable": "tenure_months",
+        "mean_churned": 17.98,
+        "mean_retained": 37.57,
+        "t_stat": -34.824,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "monthly_charges",
+        "mean_churned": 74.44,
+        "mean_retained": 61.27,
+        "t_stat": 18.408,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "total_charges",
+        "mean_churned": 1531.8,
+        "mean_retained": 2550.0,
+        "t_stat": -18.709,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "churn_score",
+        "mean_churned": 82.51,
+        "mean_retained": 50.1,
+        "t_stat": 94.498,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "cltv",
+        "mean_churned": 4149.41,
+        "mean_retained": 4490.92,
+        "t_stat": -10.691,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "addon_service_count",
+        "mean_churned": 1.77,
+        "mean_retained": 2.14,
+        "t_stat": -8.344,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      {
+        "variable": "avg_revenue_per_tenure_month",
+        "mean_churned": 74.43,
+        "mean_retained": 61.27,
+        "t_stat": 18.241,
+        "p_value": 0.0,
+        "significant_at_05": true
+      }
+    ]
+  }
+}

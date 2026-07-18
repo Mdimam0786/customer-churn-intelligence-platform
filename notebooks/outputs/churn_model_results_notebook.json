@@ -1,0 +1,361 @@
+{
+  "n_customers": 7043,
+  "churn_rate": 0.2654,
+  "features_used": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "addon_service_count",
+    "contract_type",
+    "internet_service",
+    "payment_method",
+    "gender",
+    "senior_citizen",
+    "has_partner",
+    "has_dependents",
+    "paperless_billing",
+    "multiple_lines",
+    "online_security",
+    "online_backup",
+    "device_protection",
+    "tech_support",
+    "streaming_tv",
+    "streaming_movies"
+  ],
+  "excluded_fields_note": "churn_score and cltv (IBM-provided) deliberately excluded -- model must work for new customers without a vendor score.",
+  "cv_model_comparison": {
+    "Logistic Regression": {
+      "roc_auc_mean": 0.8577,
+      "roc_auc_std": 0.0088,
+      "precision_mean": 0.53,
+      "recall_mean": 0.8133,
+      "f1_mean": 0.6417
+    },
+    "Random Forest": {
+      "roc_auc_mean": 0.8586,
+      "roc_auc_std": 0.0066,
+      "precision_mean": 0.5452,
+      "recall_mean": 0.7913,
+      "f1_mean": 0.6456
+    },
+    "Gradient Boosting": {
+      "roc_auc_mean": 0.8621,
+      "roc_auc_std": 0.0062,
+      "precision_mean": 0.6739,
+      "recall_mean": 0.5559,
+      "f1_mean": 0.6092
+    }
+  },
+  "best_model": "Gradient Boosting (tuned)",
+  "best_hyperparameters": {
+    "clf__learning_rate": 0.05,
+    "clf__max_depth": 2,
+    "clf__n_estimators": 200
+  },
+  "best_cv_roc_auc": 0.8637,
+  "test_set_evaluation": {
+    "roc_auc": 0.854,
+    "precision": 0.6689,
+    "recall": 0.5241,
+    "f1": 0.5877
+  },
+  "test_confusion_matrix": [
+    [
+      938,
+      97
+    ],
+    [
+      178,
+      196
+    ]
+  ],
+  "train_test_auc_gap": 0.0222,
+  "feature_importance_builtin": [
+    {
+      "feature": "tenure_months",
+      "importance": 0.2468
+    },
+    {
+      "feature": "internet_service_Fiber optic",
+      "importance": 0.2033
+    },
+    {
+      "feature": "payment_method_Electronic check",
+      "importance": 0.1034
+    },
+    {
+      "feature": "contract_type_Two year",
+      "importance": 0.098
+    },
+    {
+      "feature": "has_dependents_Yes",
+      "importance": 0.0962
+    },
+    {
+      "feature": "contract_type_One year",
+      "importance": 0.0699
+    },
+    {
+      "feature": "total_charges",
+      "importance": 0.0566
+    },
+    {
+      "feature": "monthly_charges",
+      "importance": 0.0204
+    },
+    {
+      "feature": "paperless_billing_Yes",
+      "importance": 0.0177
+    },
+    {
+      "feature": "online_backup_No internet service",
+      "importance": 0.0139
+    },
+    {
+      "feature": "tech_support_Yes",
+      "importance": 0.0113
+    },
+    {
+      "feature": "online_security_Yes",
+      "importance": 0.0112
+    },
+    {
+      "feature": "streaming_movies_No internet service",
+      "importance": 0.0086
+    },
+    {
+      "feature": "streaming_tv_Yes",
+      "importance": 0.0068
+    },
+    {
+      "feature": "online_security_No internet service",
+      "importance": 0.0067
+    },
+    {
+      "feature": "multiple_lines_Yes",
+      "importance": 0.006
+    },
+    {
+      "feature": "internet_service_No",
+      "importance": 0.0047
+    },
+    {
+      "feature": "has_partner_Yes",
+      "importance": 0.0043
+    },
+    {
+      "feature": "streaming_movies_Yes",
+      "importance": 0.0042
+    },
+    {
+      "feature": "tech_support_No internet service",
+      "importance": 0.0033
+    },
+    {
+      "feature": "multiple_lines_No phone service",
+      "importance": 0.0029
+    },
+    {
+      "feature": "streaming_tv_No internet service",
+      "importance": 0.0023
+    },
+    {
+      "feature": "senior_citizen_Yes",
+      "importance": 0.0007
+    },
+    {
+      "feature": "gender_Male",
+      "importance": 0.0005
+    },
+    {
+      "feature": "online_backup_Yes",
+      "importance": 0.0002
+    },
+    {
+      "feature": "device_protection_Yes",
+      "importance": 0.0
+    },
+    {
+      "feature": "device_protection_No internet service",
+      "importance": 0.0
+    },
+    {
+      "feature": "payment_method_Mailed check",
+      "importance": 0.0
+    },
+    {
+      "feature": "payment_method_Credit card (automatic)",
+      "importance": 0.0
+    },
+    {
+      "feature": "addon_service_count",
+      "importance": 0.0
+    }
+  ],
+  "feature_importance_permutation": [
+    {
+      "feature": "tenure_months",
+      "importance_mean": 0.06607,
+      "importance_std": 0.00413
+    },
+    {
+      "feature": "has_dependents",
+      "importance_mean": 0.03331,
+      "importance_std": 0.00397
+    },
+    {
+      "feature": "contract_type",
+      "importance_mean": 0.0316,
+      "importance_std": 0.00354
+    },
+    {
+      "feature": "internet_service",
+      "importance_mean": 0.01971,
+      "importance_std": 0.00565
+    },
+    {
+      "feature": "monthly_charges",
+      "importance_mean": 0.00556,
+      "importance_std": 0.00228
+    },
+    {
+      "feature": "tech_support",
+      "importance_mean": 0.00491,
+      "importance_std": 0.00102
+    },
+    {
+      "feature": "total_charges",
+      "importance_mean": 0.00386,
+      "importance_std": 0.00108
+    },
+    {
+      "feature": "paperless_billing",
+      "importance_mean": 0.00278,
+      "importance_std": 0.00121
+    },
+    {
+      "feature": "payment_method",
+      "importance_mean": 0.00276,
+      "importance_std": 0.00135
+    },
+    {
+      "feature": "multiple_lines",
+      "importance_mean": 0.00195,
+      "importance_std": 0.00109
+    },
+    {
+      "feature": "online_security",
+      "importance_mean": 0.00167,
+      "importance_std": 0.00085
+    },
+    {
+      "feature": "has_partner",
+      "importance_mean": 0.00127,
+      "importance_std": 0.00045
+    },
+    {
+      "feature": "streaming_movies",
+      "importance_mean": 0.00077,
+      "importance_std": 0.00082
+    },
+    {
+      "feature": "online_backup",
+      "importance_mean": 0.00065,
+      "importance_std": 0.0009
+    },
+    {
+      "feature": "streaming_tv",
+      "importance_mean": 0.00043,
+      "importance_std": 0.00085
+    },
+    {
+      "feature": "gender",
+      "importance_mean": 0.0002,
+      "importance_std": 0.00017
+    },
+    {
+      "feature": "senior_citizen",
+      "importance_mean": 0.00016,
+      "importance_std": 7e-05
+    },
+    {
+      "feature": "addon_service_count",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "device_protection",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    }
+  ],
+  "cost_threshold_analysis": {
+    "optimal_threshold": 0.1,
+    "min_total_cost": 17720,
+    "cost_at_default_threshold": 38510
+  },
+  "experiment_engineered_features": [
+    {
+      "feature_set": "Baseline (original features)",
+      "cv_roc_auc_mean": 0.8621,
+      "cv_f1_mean": 0.6092
+    },
+    {
+      "feature_set": "Extended (+ tenure_cohort, avg_revenue_per_tenure_month)",
+      "cv_roc_auc_mean": 0.8618,
+      "cv_f1_mean": 0.6042
+    }
+  ],
+  "calibration_check": [
+    {
+      "mean_predicted_probability": 0.014,
+      "actual_churn_rate": 0.0,
+      "abs_gap": 0.014
+    },
+    {
+      "mean_predicted_probability": 0.03,
+      "actual_churn_rate": 0.014,
+      "abs_gap": 0.016
+    },
+    {
+      "mean_predicted_probability": 0.051,
+      "actual_churn_rate": 0.035,
+      "abs_gap": 0.016
+    },
+    {
+      "mean_predicted_probability": 0.083,
+      "actual_churn_rate": 0.064,
+      "abs_gap": 0.019
+    },
+    {
+      "mean_predicted_probability": 0.144,
+      "actual_churn_rate": 0.22,
+      "abs_gap": 0.076
+    },
+    {
+      "mean_predicted_probability": 0.225,
+      "actual_churn_rate": 0.2,
+      "abs_gap": 0.025
+    },
+    {
+      "mean_predicted_probability": 0.332,
+      "actual_churn_rate": 0.355,
+      "abs_gap": 0.023
+    },
+    {
+      "mean_predicted_probability": 0.445,
+      "actual_churn_rate": 0.404,
+      "abs_gap": 0.041
+    },
+    {
+      "mean_predicted_probability": 0.583,
+      "actual_churn_rate": 0.624,
+      "abs_gap": 0.041
+    },
+    {
+      "mean_predicted_probability": 0.758,
+      "actual_churn_rate": 0.738,
+      "abs_gap": 0.02
+    }
+  ]
+}

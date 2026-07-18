@@ -1,0 +1,96 @@
+{
+  "target": "cltv (IBM-provided real field)",
+  "features_used": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "addon_service_count",
+    "contract_type",
+    "internet_service",
+    "payment_method",
+    "senior_citizen",
+    "has_dependents"
+  ],
+  "cv_model_comparison": {
+    "Linear Regression": {
+      "r2_mean": 0.1571,
+      "r2_std": 0.025,
+      "mae_mean": 914.16
+    },
+    "Random Forest": {
+      "r2_mean": 0.2151,
+      "r2_std": 0.0196,
+      "mae_mean": 888.32
+    },
+    "Gradient Boosting": {
+      "r2_mean": 0.2039,
+      "r2_std": 0.0189,
+      "mae_mean": 891.54
+    }
+  },
+  "best_model": "Random Forest",
+  "test_set_metrics": {
+    "r2": 0.2198,
+    "mae": 876.03,
+    "rmse": 1029.5,
+    "cltv_range_in_data": [
+      2003,
+      6500
+    ],
+    "cltv_mean_in_data": 4400.3
+  },
+  "feature_importance": [
+    {
+      "feature": "tenure_months",
+      "importance": 0.7711
+    },
+    {
+      "feature": "total_charges",
+      "importance": 0.0891
+    },
+    {
+      "feature": "monthly_charges",
+      "importance": 0.0872
+    },
+    {
+      "feature": "addon_service_count",
+      "importance": 0.0136
+    },
+    {
+      "feature": "has_dependents_Yes",
+      "importance": 0.0069
+    },
+    {
+      "feature": "payment_method_Credit card (automatic)",
+      "importance": 0.0062
+    },
+    {
+      "feature": "payment_method_Mailed check",
+      "importance": 0.0057
+    },
+    {
+      "feature": "senior_citizen_Yes",
+      "importance": 0.0051
+    },
+    {
+      "feature": "payment_method_Electronic check",
+      "importance": 0.0051
+    },
+    {
+      "feature": "contract_type_One year",
+      "importance": 0.0049
+    },
+    {
+      "feature": "contract_type_Two year",
+      "importance": 0.0044
+    },
+    {
+      "feature": "internet_service_Fiber optic",
+      "importance": 0.0006
+    },
+    {
+      "feature": "internet_service_No",
+      "importance": 0.0002
+    }
+  ]
+}

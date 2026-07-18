@@ -1,0 +1,80 @@
+{
+  "methodology_note": "Illustrative projections using real historical churn-rate and revenue differences already found in Phases 3/6. NOT a new predictive model -- simple, transparent arithmetic, assuming the converted subgroup comes to resemble the real comparison group on average. Directional planning inputs, not guarantees.",
+  "contract_migration": {
+    "mtm_customers": 3875,
+    "mtm_mrr": 257294.15,
+    "mtm_churn_rate_pct": 42.71,
+    "one_year_churn_rate_pct": 11.27,
+    "scenarios": [
+      {
+        "conversion_rate_pct": 10,
+        "customers_converted": 387,
+        "est_fewer_churns_per_year": 122.0,
+        "est_mrr_protected": 8078.93
+      },
+      {
+        "conversion_rate_pct": 20,
+        "customers_converted": 775,
+        "est_fewer_churns_per_year": 244.0,
+        "est_mrr_protected": 16178.74
+      },
+      {
+        "conversion_rate_pct": 30,
+        "customers_converted": 1162,
+        "est_fewer_churns_per_year": 365.0,
+        "est_mrr_protected": 24257.67
+      }
+    ]
+  },
+  "payment_method_migration": {
+    "electronic_check_customers": 2365,
+    "electronic_check_churn_rate_pct": 45.29,
+    "autopay_churn_rate_pct": 15.98,
+    "scenarios": [
+      {
+        "migration_rate_pct": 20,
+        "customers_migrated": 473,
+        "est_fewer_churns_per_year": 139.0,
+        "est_mrr_protected": 10569.54
+      },
+      {
+        "migration_rate_pct": 30,
+        "customers_migrated": 709,
+        "est_fewer_churns_per_year": 208.0,
+        "est_mrr_protected": 15843.14
+      },
+      {
+        "migration_rate_pct": 50,
+        "customers_migrated": 1182,
+        "est_fewer_churns_per_year": 346.0,
+        "est_mrr_protected": 26412.69
+      }
+    ]
+  },
+  "addon_bundle_upgrade": {
+    "customers_with_1_2_addons": 1999,
+    "churn_rate_1_2_addons_pct": 40.62,
+    "churn_rate_3plus_addons_pct": 20.6,
+    "avg_monthly_charge_diff": 17.68,
+    "scenarios": [
+      {
+        "upgrade_rate_pct": 10,
+        "customers_upgraded": 199,
+        "est_fewer_churns_per_year": 40.0,
+        "est_extra_mrr": 3519.29
+      },
+      {
+        "upgrade_rate_pct": 20,
+        "customers_upgraded": 399,
+        "est_fewer_churns_per_year": 80.0,
+        "est_extra_mrr": 7056.27
+      },
+      {
+        "upgrade_rate_pct": 30,
+        "customers_upgraded": 599,
+        "est_fewer_churns_per_year": 120.0,
+        "est_extra_mrr": 10593.25
+      }
+    ]
+  }
+}

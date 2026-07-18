@@ -1,0 +1,142 @@
+{
+  "features_used": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "addon_service_count",
+    "cltv"
+  ],
+  "k_selection_silhouette_scores": {
+    "2": 0.3901,
+    "3": 0.3179,
+    "4": 0.293,
+    "5": 0.3285,
+    "6": 0.2871,
+    "7": 0.2836,
+    "8": 0.2882
+  },
+  "statistically_optimal_k": 2,
+  "statistically_optimal_silhouette": 0.3901,
+  "statistically_optimal_cluster_profiles": [
+    {
+      "cluster": 0,
+      "n_customers": 4580,
+      "pct_of_base": 65.03,
+      "avg_tenure_months": 19.96,
+      "avg_monthly_charges": 51.62,
+      "avg_total_charges": 855.89,
+      "avg_addon_count": 1.03,
+      "avg_cltv": 4102.74,
+      "churn_rate_pct": 31.79,
+      "most_common_contract": "Month-to-month",
+      "most_common_internet_service": "Fiber optic",
+      "descriptive_tags": [
+        "Highest churn risk"
+      ]
+    },
+    {
+      "cluster": 1,
+      "n_customers": 2463,
+      "pct_of_base": 34.97,
+      "avg_tenure_months": 55.46,
+      "avg_monthly_charges": 89.19,
+      "avg_total_charges": 4927.59,
+      "avg_addon_count": 3.9,
+      "avg_cltv": 4953.61,
+      "churn_rate_pct": 16.77,
+      "most_common_contract": "Two year",
+      "most_common_internet_service": "Fiber optic",
+      "descriptive_tags": [
+        "Highest CLTV",
+        "Longest tenured",
+        "Lowest churn risk"
+      ]
+    }
+  ],
+  "business_actionable_k": 5,
+  "business_actionable_silhouette": 0.3285,
+  "business_actionable_note": "k=2 gives the best statistical score but is too simple (just a high/low split) to act on. k=5 is the next-best option (silhouette=0.3285) and is used here as the practical choice, not claimed to be the mathematically optimal one.",
+  "business_actionable_cluster_profiles": [
+    {
+      "cluster": 0,
+      "n_customers": 1350,
+      "pct_of_base": 19.17,
+      "avg_tenure_months": 13.7,
+      "avg_monthly_charges": 73.69,
+      "avg_total_charges": 1019.71,
+      "avg_addon_count": 1.72,
+      "avg_cltv": 5080.11,
+      "churn_rate_pct": 47.63,
+      "most_common_contract": "Month-to-month",
+      "most_common_internet_service": "Fiber optic",
+      "descriptive_tags": [
+        "Highest churn risk"
+      ]
+    },
+    {
+      "cluster": 1,
+      "n_customers": 1861,
+      "pct_of_base": 26.42,
+      "avg_tenure_months": 60.78,
+      "avg_monthly_charges": 91.23,
+      "avg_total_charges": 5538.37,
+      "avg_addon_count": 4.12,
+      "avg_cltv": 5178.12,
+      "churn_rate_pct": 13.06,
+      "most_common_contract": "Two year",
+      "most_common_internet_service": "Fiber optic",
+      "descriptive_tags": [
+        "Longest tenured"
+      ]
+    },
+    {
+      "cluster": 2,
+      "n_customers": 840,
+      "pct_of_base": 11.93,
+      "avg_tenure_months": 54.84,
+      "avg_monthly_charges": 29.52,
+      "avg_total_charges": 1615.02,
+      "avg_addon_count": 0.5,
+      "avg_cltv": 5224.01,
+      "churn_rate_pct": 3.69,
+      "most_common_contract": "Two year",
+      "most_common_internet_service": "No",
+      "descriptive_tags": [
+        "Highest CLTV",
+        "Lowest churn risk"
+      ]
+    },
+    {
+      "cluster": 3,
+      "n_customers": 1583,
+      "pct_of_base": 22.48,
+      "avg_tenure_months": 11.41,
+      "avg_monthly_charges": 31.69,
+      "avg_total_charges": 304.56,
+      "avg_addon_count": 0.23,
+      "avg_cltv": 3683.18,
+      "churn_rate_pct": 26.22,
+      "most_common_contract": "Month-to-month",
+      "most_common_internet_service": "No",
+      "descriptive_tags": [
+        "Mid-range on all dimensions"
+      ]
+    },
+    {
+      "cluster": 4,
+      "n_customers": 1409,
+      "pct_of_base": 20.01,
+      "avg_tenure_months": 22.9,
+      "avg_monthly_charges": 79.42,
+      "avg_total_charges": 1798.7,
+      "avg_addon_count": 2.54,
+      "avg_cltv": 3036.2,
+      "churn_rate_pct": 38.11,
+      "most_common_contract": "Month-to-month",
+      "most_common_internet_service": "Fiber optic",
+      "descriptive_tags": [
+        "Mid-range on all dimensions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+
+======================================================================
+KPI 1: Executive Summary
+======================================================================
+ total_customers  churned_customers  churn_rate_pct  total_billed_revenue  current_mrr  mrr_at_risk  avg_cltv
+            7043               1869           26.54            16056624.3     456116.6    139130.85    4400.3
+
+======================================================================
+KPI 2: Contract Type Ranking (window functions)
+======================================================================
+ contract_type  customers  churned  churn_rate_pct  total_revenue  pct_of_total_revenue  churn_risk_rank
+Month-to-month       3875     1655           42.71      5305861.5                 33.04                1
+      One year       1473      166           11.27      4467073.2                 27.82                2
+      Two year       1695       48            2.83      6283689.6                 39.13                3
+
+======================================================================
+KPI 3: Tenure Cohort Progression (LAG + running SUM)
+======================================================================
+tenure_cohort_label  customers  churned  churn_rate_pct  prior_cohort_churn_rate  cumulative_revenue
+            0-12 mo       2186     1037           47.44                      NaN           602107.50
+           13-24 mo       1024      294           28.71                    47.44          1755395.20
+           25-36 mo        832      180           21.63                    28.71          3411241.00
+           37-48 mo        762      145           19.03                    21.63          5565775.55
+           49-60 mo        832      120           14.42                    19.03          8767421.85
+           61-72 mo       1407       93            6.61                    14.42         16056624.30
+
+======================================================================
+KPI 4: Top 3 Highest-CLTV Churned Customers per Contract Type
+======================================================================
+customer_id  contract_type  cltv  tenure_months
+ 1323-OOEPC Month-to-month  6481             53
+ 4143-HHPMK Month-to-month  6402             52
+ 1891-FZYSA Month-to-month  6363             69
+ 0112-QWPNC       One year  6452             49
+ 0406-BPDVR       One year  6405             54
+ 8634-CILSZ       One year  6350             69
+ 1043-YCUTE       Two year  6484             56
+ 5089-IFSDP       Two year  6424             58
+ 0617-AQNWT       Two year  6347             64
+
+======================================================================
+KPI 5: RFM Proxy Score Distribution vs Churn Rate (NTILE)
+======================================================================
+ rfm_score  customers  churn_rate_pct
+        15        760            8.55
+        14        452           17.26
+        13        435           15.17
+        12        438           14.84
+        11        497           29.18
+        10        720           17.36
+         9        645           23.41
+         8        474           34.39
+         7        355           33.24
+         6        591           30.46
+         5        456           37.94
+         4        504           43.25
+         3        716           44.97
+
+======================================================================
+KPI 8: Churn Score Decile Calibration (NTILE)
+======================================================================
+ decile  customers  actual_churned  actual_churn_rate_pct
+     10        704             704                 100.00
+      9        704             451                  64.06
+      8        704             284                  40.34
+      7        704             249                  35.37
+      6        704             181                  25.71
+      5        704               0                   0.00
+      4        704               0                   0.00
+      3        705               0                   0.00
+      2        705               0                   0.00
+      1        705               0                   0.00
+
+======================================================================
+KPI 10: Pareto Churn Reason Analysis (cumulative %)
+======================================================================
+                             churn_reason  churned_customers  cumulative_pct
+               Attitude of support person                192           10.27
+Competitor offered higher download speeds                189           20.39
+             Competitor offered more data                162           29.05
+                               Don't know                154           37.29
+             Competitor made better offer                140           44.78
+             Attitude of service provider                135           52.01
+            Competitor had better devices                130           58.96
+                      Network reliability                103           64.47
+
+======================================================================
+VIEW equivalent: 10 Lowest Customer Health Scores (highest priority for outreach)
+======================================================================
+customer_id  contract_type  churn_flag  health_score
+ 3900-AQPHZ Month-to-month           1           3.3
+ 9787-XVQIU Month-to-month           1           3.3
+ 7239-HZZCX Month-to-month           1           3.3
+ 4702-IOQDC Month-to-month           1           3.3
+ 1363-TXLSL Month-to-month           1           3.3
+ 8329-IBCTI Month-to-month           1           3.7
+ 9828-AOQLM Month-to-month           1           3.7
+ 2672-DZUOY Month-to-month           1           3.7
+ 4667-OHGKG Month-to-month           1           3.7
+ 4786-UKSNZ Month-to-month           1           3.7
+
+======================================================================
+Materializing mv_tenure_cohort_rollup and mv_geography_rollup as physical snapshot tables
+======================================================================
+mv_tenure_cohort_rollup materialized: 6 rows
+mv_geography_rollup materialized: 1129 rows
+
+All Phase 4 SQL logic verified against real data.

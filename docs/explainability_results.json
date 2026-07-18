@@ -1,0 +1,459 @@
+{
+  "permutation_importance": [
+    {
+      "feature": "tenure_months",
+      "importance_mean": 0.06579,
+      "importance_std": 0.00411
+    },
+    {
+      "feature": "has_dependents",
+      "importance_mean": 0.03331,
+      "importance_std": 0.00397
+    },
+    {
+      "feature": "contract_type",
+      "importance_mean": 0.0316,
+      "importance_std": 0.00354
+    },
+    {
+      "feature": "internet_service",
+      "importance_mean": 0.01971,
+      "importance_std": 0.00565
+    },
+    {
+      "feature": "monthly_charges",
+      "importance_mean": 0.00557,
+      "importance_std": 0.00225
+    },
+    {
+      "feature": "tech_support",
+      "importance_mean": 0.00491,
+      "importance_std": 0.00102
+    },
+    {
+      "feature": "total_charges",
+      "importance_mean": 0.00399,
+      "importance_std": 0.00107
+    },
+    {
+      "feature": "paperless_billing",
+      "importance_mean": 0.00278,
+      "importance_std": 0.00121
+    },
+    {
+      "feature": "payment_method",
+      "importance_mean": 0.00276,
+      "importance_std": 0.00135
+    },
+    {
+      "feature": "multiple_lines",
+      "importance_mean": 0.00195,
+      "importance_std": 0.00109
+    },
+    {
+      "feature": "online_security",
+      "importance_mean": 0.00167,
+      "importance_std": 0.00085
+    },
+    {
+      "feature": "has_partner",
+      "importance_mean": 0.00127,
+      "importance_std": 0.00045
+    },
+    {
+      "feature": "online_backup",
+      "importance_mean": 0.00096,
+      "importance_std": 0.00105
+    },
+    {
+      "feature": "streaming_movies",
+      "importance_mean": 0.00051,
+      "importance_std": 0.00069
+    },
+    {
+      "feature": "streaming_tv",
+      "importance_mean": 0.00043,
+      "importance_std": 0.00085
+    },
+    {
+      "feature": "gender",
+      "importance_mean": 0.0002,
+      "importance_std": 0.00017
+    },
+    {
+      "feature": "senior_citizen",
+      "importance_mean": 0.00016,
+      "importance_std": 7e-05
+    },
+    {
+      "feature": "addon_service_count",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "device_protection",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    }
+  ],
+  "local_explanations": {
+    "highest_predicted_risk_customer": {
+      "predicted_churn_probability": 0.9077,
+      "feature_contributions_vs_typical_customer": [
+        {
+          "feature": "tenure_months",
+          "customer_value": "1",
+          "typical_value": 32.37114865824223,
+          "probability_shift_if_typical": -0.2358
+        },
+        {
+          "feature": "monthly_charges",
+          "customer_value": 95.1,
+          "typical_value": 64.76169246059918,
+          "probability_shift_if_typical": -0.0373
+        },
+        {
+          "feature": "total_charges",
+          "customer_value": 95.1,
+          "typical_value": 2279.798991906858,
+          "probability_shift_if_typical": -0.0258
+        },
+        {
+          "feature": "multiple_lines",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": -0.014
+        },
+        {
+          "feature": "has_partner",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": -0.0125
+        },
+        {
+          "feature": "senior_citizen",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": -0.0066
+        },
+        {
+          "feature": "streaming_movies",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": -0.0043
+        },
+        {
+          "feature": "streaming_tv",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": -0.0024
+        },
+        {
+          "feature": "addon_service_count",
+          "customer_value": "2",
+          "typical_value": 2.0379099815419566,
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "contract_type",
+          "customer_value": "Month-to-month",
+          "typical_value": "Month-to-month",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "internet_service",
+          "customer_value": "Fiber optic",
+          "typical_value": "Fiber optic",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "payment_method",
+          "customer_value": "Electronic check",
+          "typical_value": "Electronic check",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "gender",
+          "customer_value": "Male",
+          "typical_value": "Male",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "has_dependents",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "paperless_billing",
+          "customer_value": "Yes",
+          "typical_value": "Yes",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "online_security",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "online_backup",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "device_protection",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "tech_support",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        }
+      ]
+    },
+    "lowest_predicted_risk_customer": {
+      "predicted_churn_probability": 0.0054,
+      "feature_contributions_vs_typical_customer": [
+        {
+          "feature": "contract_type",
+          "customer_value": "Two year",
+          "typical_value": "Month-to-month",
+          "probability_shift_if_typical": 0.0105
+        },
+        {
+          "feature": "has_dependents",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0102
+        },
+        {
+          "feature": "internet_service",
+          "customer_value": "No",
+          "typical_value": "Fiber optic",
+          "probability_shift_if_typical": 0.0041
+        },
+        {
+          "feature": "tenure_months",
+          "customer_value": "71",
+          "typical_value": 32.37114865824223,
+          "probability_shift_if_typical": 0.0038
+        },
+        {
+          "feature": "payment_method",
+          "customer_value": "Bank transfer (automatic)",
+          "typical_value": "Electronic check",
+          "probability_shift_if_typical": 0.0014
+        },
+        {
+          "feature": "online_backup",
+          "customer_value": "No internet service",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0013
+        },
+        {
+          "feature": "paperless_billing",
+          "customer_value": "No",
+          "typical_value": "Yes",
+          "probability_shift_if_typical": 0.001
+        },
+        {
+          "feature": "gender",
+          "customer_value": "Female",
+          "typical_value": "Male",
+          "probability_shift_if_typical": 0.0006
+        },
+        {
+          "feature": "tech_support",
+          "customer_value": "No internet service",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0005
+        },
+        {
+          "feature": "total_charges",
+          "customer_value": 1389.35,
+          "typical_value": 2279.798991906858,
+          "probability_shift_if_typical": -0.0004
+        },
+        {
+          "feature": "has_partner",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0004
+        },
+        {
+          "feature": "streaming_movies",
+          "customer_value": "No internet service",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0003
+        },
+        {
+          "feature": "monthly_charges",
+          "customer_value": 19.9,
+          "typical_value": 64.76169246059918,
+          "probability_shift_if_typical": 0.0002
+        },
+        {
+          "feature": "streaming_tv",
+          "customer_value": "No internet service",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0001
+        },
+        {
+          "feature": "addon_service_count",
+          "customer_value": "0",
+          "typical_value": 2.0379099815419566,
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "senior_citizen",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "multiple_lines",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "online_security",
+          "customer_value": "No internet service",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "device_protection",
+          "customer_value": "No internet service",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        }
+      ]
+    },
+    "borderline_customer": {
+      "predicted_churn_probability": 0.4996,
+      "feature_contributions_vs_typical_customer": [
+        {
+          "feature": "tenure_months",
+          "customer_value": "3",
+          "typical_value": 32.37114865824223,
+          "probability_shift_if_typical": -0.218
+        },
+        {
+          "feature": "internet_service",
+          "customer_value": "DSL",
+          "typical_value": "Fiber optic",
+          "probability_shift_if_typical": 0.2082
+        },
+        {
+          "feature": "streaming_tv",
+          "customer_value": "Yes",
+          "typical_value": "No",
+          "probability_shift_if_typical": -0.0214
+        },
+        {
+          "feature": "total_charges",
+          "customer_value": 140.4,
+          "typical_value": 2279.798991906858,
+          "probability_shift_if_typical": -0.0188
+        },
+        {
+          "feature": "monthly_charges",
+          "customer_value": 54.2,
+          "typical_value": 64.76169246059918,
+          "probability_shift_if_typical": -0.0029
+        },
+        {
+          "feature": "addon_service_count",
+          "customer_value": "1",
+          "typical_value": 2.0379099815419566,
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "contract_type",
+          "customer_value": "Month-to-month",
+          "typical_value": "Month-to-month",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "payment_method",
+          "customer_value": "Electronic check",
+          "typical_value": "Electronic check",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "gender",
+          "customer_value": "Female",
+          "typical_value": "Male",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "senior_citizen",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "has_partner",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "has_dependents",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "paperless_billing",
+          "customer_value": "Yes",
+          "typical_value": "Yes",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "multiple_lines",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "online_security",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "online_backup",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "device_protection",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "tech_support",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        },
+        {
+          "feature": "streaming_movies",
+          "customer_value": "No",
+          "typical_value": "No",
+          "probability_shift_if_typical": 0.0
+        }
+      ]
+    }
+  },
+  "methodology_note": "The shap library was not available during development. Permutation importance (global) and leave-one-feature-out marginal contribution (local) are used instead -- genuine, standard, model-agnostic techniques, not the same as Shapley values."
+}

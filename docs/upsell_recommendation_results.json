@@ -1,0 +1,108 @@
+{
+  "methodology_note": "No real transaction/purchase log exists in this dataset, so a collaborative-filtering recommender isn't possible without fabricating interaction data. Instead, per-service classifiers predict which non-adopting customers most resemble current adopters -- a real, defensible upsell-targeting signal.",
+  "per_service_model_metrics": [
+    {
+      "service": "online_security",
+      "n_eligible_customers": 5517,
+      "current_adoption_rate_pct": 36.6,
+      "cv_roc_auc_mean": 0.7981,
+      "cv_roc_auc_std": 0.0089
+    },
+    {
+      "service": "online_backup",
+      "n_eligible_customers": 5517,
+      "current_adoption_rate_pct": 44.03,
+      "cv_roc_auc_mean": 0.7738,
+      "cv_roc_auc_std": 0.0062
+    },
+    {
+      "service": "device_protection",
+      "n_eligible_customers": 5517,
+      "current_adoption_rate_pct": 43.9,
+      "cv_roc_auc_mean": 0.8061,
+      "cv_roc_auc_std": 0.0155
+    },
+    {
+      "service": "tech_support",
+      "n_eligible_customers": 5517,
+      "current_adoption_rate_pct": 37.05,
+      "cv_roc_auc_mean": 0.8286,
+      "cv_roc_auc_std": 0.0164
+    },
+    {
+      "service": "streaming_tv",
+      "n_eligible_customers": 5517,
+      "current_adoption_rate_pct": 49.07,
+      "cv_roc_auc_mean": 0.8893,
+      "cv_roc_auc_std": 0.0132
+    },
+    {
+      "service": "streaming_movies",
+      "n_eligible_customers": 5517,
+      "current_adoption_rate_pct": 49.52,
+      "cv_roc_auc_mean": 0.889,
+      "cv_roc_auc_std": 0.0068
+    }
+  ],
+  "total_customers_with_a_recommendation": 5233,
+  "recommended_service_distribution": {
+    "online_backup": 1527,
+    "online_security": 1035,
+    "tech_support": 948,
+    "device_protection": 848,
+    "streaming_tv": 454,
+    "streaming_movies": 421
+  },
+  "top_10_highest_confidence_recommendations": [
+    {
+      "customer_id": "9225-BZLNZ",
+      "recommended_service": "tech_support",
+      "fit_probability": 0.9288
+    },
+    {
+      "customer_id": "2987-BJXIK",
+      "recommended_service": "tech_support",
+      "fit_probability": 0.926
+    },
+    {
+      "customer_id": "3544-FBCAS",
+      "recommended_service": "tech_support",
+      "fit_probability": 0.9251
+    },
+    {
+      "customer_id": "0565-JUPYD",
+      "recommended_service": "streaming_movies",
+      "fit_probability": 0.9235
+    },
+    {
+      "customer_id": "1060-ENTOF",
+      "recommended_service": "streaming_tv",
+      "fit_probability": 0.9225
+    },
+    {
+      "customer_id": "3758-CKOQL",
+      "recommended_service": "streaming_tv",
+      "fit_probability": 0.9206
+    },
+    {
+      "customer_id": "8565-HBFNN",
+      "recommended_service": "streaming_tv",
+      "fit_probability": 0.9188
+    },
+    {
+      "customer_id": "6408-OTUBZ",
+      "recommended_service": "streaming_movies",
+      "fit_probability": 0.9188
+    },
+    {
+      "customer_id": "5172-RKOCB",
+      "recommended_service": "device_protection",
+      "fit_probability": 0.9179
+    },
+    {
+      "customer_id": "2302-OUZXB",
+      "recommended_service": "tech_support",
+      "fit_probability": 0.9144
+    }
+  ]
+}
